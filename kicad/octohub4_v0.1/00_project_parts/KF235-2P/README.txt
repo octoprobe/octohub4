@@ -1,0 +1,1 @@
+https://www.digikey.in/en/products/detail/wago-corporation/236-402/15573417

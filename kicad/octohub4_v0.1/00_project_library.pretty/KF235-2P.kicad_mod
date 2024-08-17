@@ -1,0 +1,262 @@
+(footprint "KF235-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Terminal Block WAGO 236-402, 45Degree (cable under 45degree), 2 pins, pitch 5mm, size 12.3x14mm, drill diameter 1.15mm, pad diameter 3mm, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_WAGO")
+	(tags "THT Terminal Block WAGO 236-402 45Degree pitch 5mm size 12.3x14mm drill 1.15mm pad 3mm")
+	(property "Reference" "REF**"
+		(at 2.65 -5 0)
+		(layer "F.SilkS")
+		(uuid "e51be2f3-2afb-431c-a204-3f96761d5ff9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KF235-2P"
+		(at 2.8 11.3 0)
+		(layer "F.Fab")
+		(uuid "5be39197-b0e0-48b7-8fd2-1a574771a424")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894722610384896"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de162385-852c-4fe9-b2c2-741c01bbde1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4eaadbdc-2ac7-4f29-9592-1e11a3afb594")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KiCadOriginal" "TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cc645fd8-7785-4435-bed3-a0b1b7cb6350")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "JLCPCB" "C475172"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c9eee9c8-9498-4dac-ae60-14eab711dde4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Aliexpress" "https://de.aliexpress.com/item/32890128819.html"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "640bb62b-2aea-4e8c-82bc-6a90d02f9f92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.9 -4)
+		(end 8.6 -4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "661d81d0-475c-47c2-adda-75902cd05d49")
+	)
+	(fp_line
+		(start -2.9 10)
+		(end -2.9 -4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7d36836-0b90-4d07-845a-a5c603bf25ff")
+	)
+	(fp_line
+		(start -2.9 10)
+		(end 8.6 10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10857eea-00ef-416a-8163-3342527df0c7")
+	)
+	(fp_line
+		(start 8.6 -4)
+		(end 8.6 10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b746b9c2-3a90-4015-9587-984190eb40e9")
+	)
+	(fp_poly
+		(pts
+			(xy 0 10) (xy 0.44 10.61) (xy -0.44 10.61)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "71a2a365-9d84-45e1-bdd0-7524d19f6860")
+	)
+	(fp_rect
+		(start -3 -4.1)
+		(end 8.7 10.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "edb43d21-57c7-40bd-8877-24a7e7dbd313")
+	)
+	(fp_line
+		(start -3.1 -4.2)
+		(end 8.8 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fda43dda-a445-4595-9205-9208a43746ba")
+	)
+	(fp_line
+		(start -3.1 10.2)
+		(end -3.1 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83ceb912-0fcc-4ad4-b760-9591b67425ea")
+	)
+	(fp_line
+		(start -3.1 10.2)
+		(end 8.8 10.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e21c210-91aa-4529-9397-747407a0f853")
+	)
+	(fp_line
+		(start 8.8 -4.2)
+		(end 8.8 10.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a94d939-0605-45a0-8c38-ffd6c61b49a1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.65 1 0)
+		(layer "F.Fab")
+		(uuid "791fbddb-ca99-4c52-95a8-0da54485dfd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.5 3)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.166667)
+		(uuid "d9ab0880-3f35-4c4e-b303-aedfab195fcb")
+	)
+	(pad "1" thru_hole rect
+		(at 0 5)
+		(size 1.5 3)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c396cf56-efc8-43ab-a4ef-fbae5449ca97")
+	)
+	(pad "2" thru_hole oval
+		(at 5 0)
+		(size 1.5 3)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a131e4d-a8e5-42c2-a6ed-ae4634d22000")
+	)
+	(pad "2" thru_hole oval
+		(at 5 5)
+		(size 1.5 3)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f1a77fb-bbc0-4ae0-8b96-ff65ffbb77a4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_WAGO.3dshapes/TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/00_project_parts/KF235-2P/KF235-2P.step"
+		(offset
+			(xyz 2.4 29.2 -13.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -0)
+		)
+	)
+)
