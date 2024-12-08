@@ -11,12 +11,18 @@ Apart from the assembled PCB, these parts are required for a fully functional te
      - Part
      - Manufacturer
      - Part
-   * - 4
-     - Bolzone
+   * - 2
+     - bolzone_uno
 
-       .. image:: ../../model3d_spacer_bolzone/20240719b_bolzone.png
+       .. image:: ../../model3d_spacer_bolzone/2024-12-08a_bolzone_uno.png
      - 3D printed
-     - :download:`3D Printer File (STL)<../../model3d_spacer_bolzone/20240719b_bolzone.stl>`
+     - :download:`3D Printer File (STL)<../../model3d_spacer_bolzone/20241207b_bolzone-bolzone_due_label.stl>`
+   * - 1
+     - bolzone_due_label
+
+       .. image:: ../../model3d_spacer_bolzone/2024-12-08a_bolzone_due_label.png
+     - 3D printed
+     - :download:`3D Printer File (STL)<../../model3d_spacer_bolzone/20241207b_bolzone-bolzone_uno.stl>`
    * - 4                                                                          
      - M3 10mm Screw Pan Head
        (D-Head 5.8mm)
