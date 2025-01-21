@@ -1,0 +1,24 @@
+# Copper free areas
+
+At the bottom belown "Octoprobe tentacle": Remove as much copper as possible.
+The same at the horizontal line.
+
+# Addition UART
+
+See: https://de.aliexpress.com/item/1005004488433590.html?spm=a2g0o.productlist.main.19.24cbDyCcDyCcjL&algo_pvid=c6c2e527-7db7-410f-9ad1-8575b9b7e103&algo_exp_id=c6c2e527-7db7-410f-9ad1-8575b9b7e103-9&pdp_npi=4%40dis%21CHF%211.43%211.43%21%21%211.57%211.57%21%402103146c17340630987057305e35b1%2112000029332980663%21sea%21CH%21848852944%21X&curPageLogUid=9HXEGzsywjEA&utparam-url=scene%3Asearch%7Cquery_from%3A
+See: file:///home/maerki/Downloads/CH343DS1.PDF
+
+CH343P is about USD
+
+Connect CH343P to port 4
+
+# Additional Pico with Flash
+
+Reuse of power, crystal and BOOT SEL.
+
+Use smaller and cheaper flash: W25Q16JVSSIQ
+
+Firmware. See: https://github.com/raspberrypi/debugprobe/tree/master?tab=readme-ov-file
+Pinout: See: https://www.raspberrypi.com/products/debug-probe/
+
+This is how the JTAG/SWD connector looks like: https://developer.arm.com/documentation/101636/0100/Debug-and-Trace/JTAG-SWD-Interface

@@ -1,9 +1,9 @@
-BOM (Part list) for one tentacle
-================================
+BOM (Bill of materials) for one tentacle
+=========================================
 
 Apart from the assembled PCB, these parts are required for a fully functional tentacle.
 
-.. list-table:: Frozen Delights!
+.. list-table:: Bill of materials
    :width: 50%
    :header-rows: 1
 
