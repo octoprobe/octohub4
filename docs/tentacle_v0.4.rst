@@ -8,7 +8,7 @@ See also: :doc:`tentacle_v0.3`
 Schematics
 ----------
 
-:download:`Schematics v0.4 (Pdf) <../kicad/tentacle_v0.4/production_v0.4/schematics.pdf>`.
+:download:`Schematics v0.4 (Pdf) <../kicad/tentacle_v0.4/production_v0.4/schematics_tentacle_v0.4.pdf>`.
 
 PCB
 ---
@@ -18,7 +18,7 @@ The assembled PCB may be ordered at https://www.jclpcb.com. The production files
 
 The price of a assembled PCB is ~USD12 when ordering 30 pieces.
 
-The tentacle is described in more detail in :external+octoprobe:doc:`Octprobe <README>`
+The tentacle is described in more detail in :external+octoprobe:doc:`Octoprobe <README>`
 
 
 .. image:: tentacle_images/tentacle_intro_v0.4.drawio.png

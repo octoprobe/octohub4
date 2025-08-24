@@ -2,7 +2,7 @@
 
 ![tentacle](production_v0.5/pcb_top_3D.png)
 
-[schematics](production_v0.5/schematics.pdf)
+[schematics](production_v0.5/schematics_tentacle_v0.5.pdf)
 
 ## History v0.4 -> v0.5
 
