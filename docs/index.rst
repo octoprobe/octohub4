@@ -1,16 +1,13 @@
-.. include:: tentacle.rst
+Tentacle
+======================
+
 
 .. toctree::
-    :maxdepth: 2
-    :caption: Contents
 
-    tentacle.rst
+    big_picture.rst
+    tentacle_v0.4.rst
+    tentacle_v0.3.rst
     pcb/bom.rst
+    rp2_probe.rst
+    rp2_probe-obsolete.rst
     license.rst
-
-.. Indices and tables
-.. ==================
-.. * :ref:`genindex`
-.. * :ref:`search`
-.. * :ref:`modindex`
-
