@@ -1,9 +1,11 @@
 Tentacle v0.4
 =========================
 
-This repo describes the hardware of a tentacle:
+.. warning::
 
-See also: :doc:`tentacle_v0.3`
+    Version v0.4 is now obsolete as it has been superseded by v0.5!
+
+See also: :doc:`tentacle_v0.3` :doc:`tentacle_v0.5`
 
 Schematics
 ----------

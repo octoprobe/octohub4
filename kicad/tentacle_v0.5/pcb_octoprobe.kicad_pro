@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.5,
-          "height": 3.7,
-          "width": 3.7
+          "drill": 1.05,
+          "height": 2.1,
+          "width": 2.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -524,9 +524,8 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 0,
+        "line_style": 2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "3V3",
@@ -540,16 +539,33 @@
       },
       {
         "bus_width": 12,
+        "line_style": 2,
+        "name": "3V3dut",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 128, 0)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 6,
+        "line_style": 0,
+        "name": "3V3infra",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 128, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.4,
@@ -557,37 +573,27 @@
         "wire_width": 12
       },
       {
+        "bus_width": 16,
+        "line_style": 1,
+        "name": "5Vbuf",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 16
+      },
+      {
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.15,
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 12
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HUB3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgb(255, 128, 0)",
-        "track_width": 0.2,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 12
@@ -596,14 +602,13 @@
         "bus_width": 16,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "HUB5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.4,
@@ -614,14 +619,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Medium",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.4,
@@ -632,14 +636,13 @@
         "bus_width": 27,
         "clearance": 1.27,
         "diff_pair_gap": 0.125,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.7,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "UsbDifferential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.7,
         "via_diameter": 0.4,
@@ -650,14 +653,13 @@
         "bus_width": 24,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Wide",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "via_diameter": 0.4,
@@ -691,10 +693,6 @@
         "pattern": "GND"
       },
       {
-        "netclass": "HUB3V3",
-        "pattern": "HUB+3V3"
-      },
-      {
         "netclass": "HUB5V",
         "pattern": "HUB+5V"
       },
@@ -705,6 +703,18 @@
       {
         "netclass": "UsbDifferential",
         "pattern": "/USB_*_D*"
+      },
+      {
+        "netclass": "5Vbuf",
+        "pattern": "+5Vbuf"
+      },
+      {
+        "netclass": "3V3infra",
+        "pattern": "+3V3infra"
+      },
+      {
+        "netclass": "3V3dut",
+        "pattern": "+3V3dut"
       }
     ]
   },
@@ -850,10 +860,6 @@
       "USB Hub Chip"
     ],
     [
-      "d5925032-1cd4-4041-8ae3-121df5f0e5b4",
-      "USB Power Switch RP2"
-    ],
-    [
       "6546fe85-dd41-453d-98b0-9b6f35fb87fd",
       "Relay Breakout"
     ],
@@ -890,12 +896,12 @@
       "Prototype Area"
     ],
     [
-      "5d792043-9bfa-4fa6-be3c-ff15d7bc02be",
-      "USB Power Switch DUT"
-    ],
-    [
       "cd9bbde0-3ad0-43d1-a674-4a86d38bbcb3",
       "RP2 PROBE"
+    ],
+    [
+      "ca80583c-f2d8-4707-8692-a71188348d5f",
+      "Regulator 3V3"
     ]
   ],
   "text_variables": {}
