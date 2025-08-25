@@ -70,16 +70,19 @@
         "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "ignore",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "warning",
         "duplicate_footprints": "ignore",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "warning",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -90,9 +93,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "warning",
         "padstack": "error",
         "pth_inside_courtyard": "warning",
@@ -104,10 +109,13 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "ignore",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -122,6 +130,7 @@
         "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.15,
         "min_microvia_diameter": 0.2,
@@ -141,10 +150,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -252,6 +262,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -476,7 +487,7 @@
   },
   "meta": {
     "filename": "pcb_octoprobe.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -491,6 +502,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.4,
@@ -508,6 +520,7 @@
         "microvia_drill": 0.1,
         "name": "3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgb(255, 128, 0)",
         "track_width": 0.2,
         "via_diameter": 0.4,
@@ -525,6 +538,7 @@
         "microvia_drill": 0.1,
         "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.4,
@@ -542,6 +556,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.15,
         "via_diameter": 0.4,
@@ -559,6 +574,7 @@
         "microvia_drill": 0.1,
         "name": "HUB3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
         "schematic_color": "rgb(255, 128, 0)",
         "track_width": 0.2,
         "via_diameter": 0.4,
@@ -576,6 +592,7 @@
         "microvia_drill": 0.1,
         "name": "HUB5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.4,
@@ -593,6 +610,7 @@
         "microvia_drill": 0.1,
         "name": "Medium",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.4,
@@ -610,6 +628,7 @@
         "microvia_drill": 0.1,
         "name": "UsbDifferential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.7,
         "via_diameter": 0.4,
@@ -627,6 +646,7 @@
         "microvia_drill": 0.1,
         "name": "Wide",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "via_diameter": 0.4,
@@ -635,12 +655,16 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/USB Hub Chip/USB_UP_D+": "UsbDifferential",
-      "/USB Hub Chip/USB_UP_D-": "UsbDifferential"
+      "/USB Hub Chip/USB_UP_D+": [
+        "UsbDifferential"
+      ],
+      "/USB Hub Chip/USB_UP_D-": [
+        "UsbDifferential"
+      ]
     },
     "netclass_patterns": [
       {
