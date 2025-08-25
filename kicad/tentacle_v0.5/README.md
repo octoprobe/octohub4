@@ -7,11 +7,11 @@
 ## History v0.4 -> v0.5
 
 * Remove silkscreen: R301, U302, R1401, R1505
+* Breadbord pads: Only one ground line to leave more space for DUT-boards
 
 
 TODO
 
-* Only one ground line
 
 * LEDS less brigth
 
