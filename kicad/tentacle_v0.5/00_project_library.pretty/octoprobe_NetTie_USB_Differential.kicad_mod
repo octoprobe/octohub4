@@ -1,7 +1,7 @@
 (footprint "octoprobe_NetTie_USB_Differential"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Net tie, 4 pin, 0.5mm square SMD pads")
 	(tags "net tie")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0b334c29-0123-47fd-b867-b221c807d4f3")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -72,25 +59,25 @@
 	(net_tie_pad_groups "1, 2, 3, 4")
 	(fp_poly
 		(pts
-			(xy -0.99 -0.3) (xy 0.87 -0.74) (xy 0.96 -0.07) (xy -0.96 -0.105)
+			(xy -0.99 -0.3) (xy 0.875936 -0.774488) (xy 0.96 -0.095) (xy -0.96 -0.105)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "4717f5ed-1d76-416c-81c0-f42b63cba0fe")
 	)
 	(fp_poly
 		(pts
-			(xy -0.96 0.105) (xy 0.96 0.07) (xy 0.88 0.74) (xy -0.99 0.3)
+			(xy -0.96 0.105) (xy 0.96 0.095) (xy 0.881043 0.775053) (xy -0.99 0.3)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "499d133a-3703-49b9-80d2-2e036cca548c")
 	)
@@ -101,7 +88,7 @@
 		(uuid "2444486c-a16b-473f-93ab-657c96ee8b59")
 	)
 	(pad "2" smd circle
-		(at 0.96 -0.415)
+		(at 0.96 -0.44)
 		(size 0.69 0.69)
 		(layers "F.Cu")
 		(uuid "6095bf30-fff6-419a-bb86-ef1794bf2e7a")
@@ -113,9 +100,10 @@
 		(uuid "41942cf7-4950-4a42-b465-fca421746b36")
 	)
 	(pad "4" smd circle
-		(at 0.96 0.415)
+		(at 0.96 0.44)
 		(size 0.69 0.69)
 		(layers "F.Cu")
 		(uuid "06781954-75eb-4b09-abad-04ab98e5d8fe")
 	)
+	(embedded_fonts no)
 )
