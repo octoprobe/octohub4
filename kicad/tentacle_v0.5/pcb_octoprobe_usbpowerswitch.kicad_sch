@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7deca8bd-2ae0-4944-a2f8-24d9072f575b")
 	(paper "A4")
 	(title_block
@@ -13,7 +13,9 @@
 	)
 	(lib_symbols
 		(symbol "00_project_library:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -86,7 +88,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -98,7 +100,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -147,6 +149,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "00_project_library:MT9700"
 			(exclude_from_sim no)
@@ -229,35 +232,17 @@
 				)
 			)
 			(symbol "MT9700_1_1"
-				(pin power_out line
-					(at 10.16 2.54 180)
+				(pin input line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "VOUT"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -283,24 +268,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
@@ -319,10 +286,49 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -441,6 +447,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Graphic:Logo_Open_Hardware_Small"
 			(exclude_from_sim no)
@@ -576,12 +583,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -653,7 +665,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -665,7 +677,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -696,12 +708,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -792,7 +809,46 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 54.61 50.8)
+		(end 215.9 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c2604502-c258-4684-b7f8-12d537357678)
+	)
+	(text "USB Power Switch"
+		(exclude_from_sim no)
+		(at 56.388 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e739b32-c76a-44ff-8710-c84916df71b9")
+	)
+	(text "Datasheet\nRset 10k\ncorresponds to\ncurrent limit\nof 0.6A"
+		(exclude_from_sim no)
+		(at 60.96 98.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "db4293ef-b10a-4612-9f4d-a1ca6d476b5d")
 	)
 	(junction
 		(at 127 81.28)
@@ -886,44 +942,6 @@
 		)
 		(uuid "f4db9274-2910-4dc9-9b2c-00750105bd9f")
 	)
-	(rectangle
-		(start 54.61 50.8)
-		(end 215.9 124.46)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c2604502-c258-4684-b7f8-12d537357678)
-	)
-	(text "USB Power Switch"
-		(exclude_from_sim no)
-		(at 56.388 54.356 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e739b32-c76a-44ff-8710-c84916df71b9")
-	)
-	(text "Datasheet\nRset 10k\ncorresponds to\ncurrent limit\nof 0.6A"
-		(exclude_from_sim no)
-		(at 60.96 98.298 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "db4293ef-b10a-4612-9f4d-a1ca6d476b5d")
-	)
 	(hierarchical_label "PWR_EN"
 		(shape input)
 		(at 81.28 81.28 180)
@@ -955,7 +973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d02d579-6a86-4b50-81d2-970282fc04dd")
-		(property "Reference" "C1402"
+		(property "Reference" "C402"
 			(at 130.175 87.9856 0)
 			(effects
 				(font
@@ -1046,7 +1064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cb74f05-68dd-44c7-8a01-c59fb14baea2")
-		(property "Reference" "#PWR01404"
+		(property "Reference" "#PWR0404"
 			(at 99.06 97.79 0)
 			(effects
 				(font
@@ -1116,7 +1134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fb2dba9-b4b7-4292-b7f1-14798734c497")
-		(property "Reference" "#SYM1401"
+		(property "Reference" "#SYM401"
 			(at 275.59 167.005 0)
 			(effects
 				(font
@@ -1183,7 +1201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c398972-5fc5-4e1a-954f-3bee8f02d1cf")
-		(property "Reference" "#PWR01402"
+		(property "Reference" "#PWR0402"
 			(at 90.17 77.47 0)
 			(effects
 				(font
@@ -1252,7 +1270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5eac3036-65ed-42c1-90dc-0c0cd75c0ebe")
-		(property "Reference" "#PWR01401"
+		(property "Reference" "#PWR0401"
 			(at 80.01 100.33 0)
 			(effects
 				(font
@@ -1321,7 +1339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99001bd9-1544-427a-9c6c-7c84742be9c2")
-		(property "Reference" "#PWR01403"
+		(property "Reference" "#PWR0403"
 			(at 99.06 66.04 0)
 			(effects
 				(font
@@ -1392,7 +1410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a970a683-f96f-4688-8452-e96b0bd0a80f")
-		(property "Reference" "U1401"
+		(property "Reference" "U401"
 			(at 111.76 74.9614 0)
 			(effects
 				(font
@@ -1490,7 +1508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b20dac47-ee5f-4539-8be0-886bef039792")
-		(property "Reference" "#PWR01405"
+		(property "Reference" "#PWR0405"
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -1559,7 +1577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4e38a34-677c-42dd-b283-f024c5da8c98")
-		(property "Reference" "C1401"
+		(property "Reference" "C401"
 			(at 84.963 68.326 0)
 			(effects
 				(font
@@ -1650,7 +1668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f638519c-651a-4410-98a0-db4f397005b8")
-		(property "Reference" "R1401"
+		(property "Reference" "R401"
 			(at 82.296 90.17 90)
 			(effects
 				(font

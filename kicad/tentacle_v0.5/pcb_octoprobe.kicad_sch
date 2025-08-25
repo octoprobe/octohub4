@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "35c47459-45a7-4753-acae-c8b47e7575e1")
 	(paper "A4")
 	(title_block
@@ -13,9 +13,13 @@
 	)
 	(lib_symbols
 		(symbol "00_project_library:LED GREEN"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -92,10 +96,22 @@
 			(symbol "LED GREEN_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -116,7 +132,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -128,22 +144,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -189,11 +193,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "00_project_library:LED WHITE"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -270,10 +279,22 @@
 			(symbol "LED WHITE_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -294,7 +315,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -306,22 +327,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -367,6 +376,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "00_project_library:USB-226-BRW"
 			(exclude_from_sim no)
@@ -624,11 +634,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "00_project_library:octoprobe_NetTie_USB_Differential"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -697,7 +712,7 @@
 			(symbol "octoprobe_NetTie_USB_Differential_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.794)
+						(xy -1.27 0) (xy 1.27 0.254)
 					)
 					(stroke
 						(width 0.508)
@@ -709,7 +724,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 1.27 0.254)
+						(xy -1.27 -2.54) (xy 1.27 -2.794)
 					)
 					(stroke
 						(width 0.508)
@@ -752,24 +767,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "3"
@@ -780,6 +777,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -806,9 +821,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -927,6 +945,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Graphic:Logo_Open_Hardware_Small"
 			(exclude_from_sim no)
@@ -1062,12 +1081,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1139,7 +1163,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1151,7 +1175,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1182,12 +1206,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1259,7 +1288,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1271,7 +1300,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1302,12 +1331,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1398,7 +1432,98 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 17.78 19.05)
+		(end 179.07 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d8b48ef-77fb-420d-ae33-1d29b0ab5106)
+	)
+	(text "Port 2: Infra - RP2"
+		(exclude_from_sim no)
+		(at 23.876 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "05f50c19-96b8-4d5c-b39d-e1f19c7d78da")
+	)
+	(text "Port 4: Infra - RP2 BOOT"
+		(exclude_from_sim no)
+		(at 24.13 134.874 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "55ef5ac5-1000-4e5d-a036-b13e90975f7c")
+	)
+	(text "Port 3: DUT PWR"
+		(exclude_from_sim no)
+		(at 24.384 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c9884ee-fe76-4de7-a0e9-00d8bd19e8ad")
+	)
+	(text "USB A Vertical\nDUT"
+		(exclude_from_sim no)
+		(at 154.94 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "775b836d-88ce-4175-93d2-62cade78f2d0")
+	)
+	(text "Port 1: Probe - RP2"
+		(exclude_from_sim no)
+		(at 23.876 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4c2f833-b955-41ab-8b79-b617608d61d0")
+	)
+	(text "USB Hub"
+		(exclude_from_sim no)
+		(at 29.718 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd2ff2ea-c763-4013-b130-2b1d5e7bd0c5")
 	)
 	(junction
 		(at 171.45 119.38)
@@ -1977,96 +2102,6 @@
 			(type default)
 		)
 		(uuid "f856d441-e96b-4aaa-a1b1-575789dfe1ef")
-	)
-	(rectangle
-		(start 17.78 19.05)
-		(end 179.07 157.48)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0d8b48ef-77fb-420d-ae33-1d29b0ab5106)
-	)
-	(text "Port 2: Infra - RP2"
-		(exclude_from_sim no)
-		(at 23.876 61.976 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "05f50c19-96b8-4d5c-b39d-e1f19c7d78da")
-	)
-	(text "Port 4: Infra - RP2 BOOT"
-		(exclude_from_sim no)
-		(at 24.13 134.874 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "55ef5ac5-1000-4e5d-a036-b13e90975f7c")
-	)
-	(text "Port 3: DUT PWR"
-		(exclude_from_sim no)
-		(at 24.384 100.838 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c9884ee-fe76-4de7-a0e9-00d8bd19e8ad")
-	)
-	(text "USB A Vertical\nDUT"
-		(exclude_from_sim no)
-		(at 154.94 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-		(uuid "775b836d-88ce-4175-93d2-62cade78f2d0")
-	)
-	(text "Port 1: Probe - RP2"
-		(exclude_from_sim no)
-		(at 23.876 34.798 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4c2f833-b955-41ab-8b79-b617608d61d0")
-	)
-	(text "USB Hub"
-		(exclude_from_sim no)
-		(at 29.718 26.416 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd2ff2ea-c763-4013-b130-2b1d5e7bd0c5")
 	)
 	(label "USB_INFRA_D-"
 		(at 90.17 64.77 0)
@@ -3767,6 +3802,10 @@
 	(sheet
 		(at 220.98 24.13)
 		(size 44.958 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3796,13 +3835,13 @@
 		)
 		(pin "12MHz" output
 			(at 220.98 41.91 180)
+			(uuid "16ac922d-ef10-47e5-b6c3-41db49142eae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "16ac922d-ef10-47e5-b6c3-41db49142eae")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -3815,6 +3854,10 @@
 	(sheet
 		(at 220.98 123.19)
 		(size 45.72 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3853,6 +3896,10 @@
 	(sheet
 		(at 80.01 102.87)
 		(size 38.1 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3882,23 +3929,23 @@
 		)
 		(pin "PWR_EN" input
 			(at 80.01 106.68 180)
+			(uuid "bfffbaaa-c4cd-4ea3-b94c-3be67b7c27f8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bfffbaaa-c4cd-4ea3-b94c-3be67b7c27f8")
 		)
 		(pin "VOUT" input
 			(at 118.11 106.68 0)
+			(uuid "bf712364-137d-4931-b727-f506c8a27767")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bf712364-137d-4931-b727-f506c8a27767")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -3911,6 +3958,10 @@
 	(sheet
 		(at 220.98 90.17)
 		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3949,6 +4000,10 @@
 	(sheet
 		(at 220.98 55.88)
 		(size 44.958 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3978,13 +4033,13 @@
 		)
 		(pin "12MHz" input
 			(at 220.98 59.69 180)
+			(uuid "b4a02dd0-1305-45c9-9350-9c38e0ed1c60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b4a02dd0-1305-45c9-9350-9c38e0ed1c60")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -3997,6 +4052,10 @@
 	(sheet
 		(at 22.86 30.48)
 		(size 30.48 119.38)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4026,123 +4085,123 @@
 		)
 		(pin "USB_DM1" output
 			(at 53.34 36.83 0)
+			(uuid "260373a7-16fe-436c-8287-38a3e8ba193f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "260373a7-16fe-436c-8287-38a3e8ba193f")
 		)
 		(pin "USB_DP1" output
 			(at 53.34 39.37 0)
+			(uuid "7b906be0-48ad-4370-8459-db2641e176bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7b906be0-48ad-4370-8459-db2641e176bb")
 		)
 		(pin "PRT_PWR1" output
 			(at 53.34 48.26 0)
+			(uuid "c687b69c-a1a5-442f-868e-520fd46c684d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c687b69c-a1a5-442f-868e-520fd46c684d")
 		)
 		(pin "PRT_PWR2" output
 			(at 53.34 77.47 0)
+			(uuid "57a3e152-025a-47f0-9690-9b79bbc17a2e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "57a3e152-025a-47f0-9690-9b79bbc17a2e")
 		)
 		(pin "USB_DM2" output
 			(at 53.34 64.77 0)
+			(uuid "582cc42f-75ea-4021-b3a1-d9972ad7e76a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "582cc42f-75ea-4021-b3a1-d9972ad7e76a")
 		)
 		(pin "USB_DP2" output
 			(at 53.34 67.31 0)
+			(uuid "224bed65-841b-434f-9650-410595ad8177")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "224bed65-841b-434f-9650-410595ad8177")
 		)
 		(pin "USB_DP3" output
 			(at 53.34 121.92 0)
+			(uuid "f58e2a03-603c-481f-9022-e991bcc33d0e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f58e2a03-603c-481f-9022-e991bcc33d0e")
 		)
 		(pin "USB_DM3" output
 			(at 53.34 119.38 0)
+			(uuid "b9c502b4-b8ca-4b97-9865-acc780209599")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b9c502b4-b8ca-4b97-9865-acc780209599")
 		)
 		(pin "USB_DP4" output
 			(at 53.34 139.7 0)
+			(uuid "10d9a4fe-8fe3-41c3-88fd-8d75d2e88cd6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "10d9a4fe-8fe3-41c3-88fd-8d75d2e88cd6")
 		)
 		(pin "PRT_PWR4" output
 			(at 53.34 142.24 0)
+			(uuid "3ae92a08-63d7-49af-9022-e573766b79d5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3ae92a08-63d7-49af-9022-e573766b79d5")
 		)
 		(pin "PRT_PWR3" output
 			(at 53.34 106.68 0)
+			(uuid "cad0b8a7-ab3f-4d1e-a0e2-6837341c9529")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cad0b8a7-ab3f-4d1e-a0e2-6837341c9529")
 		)
 		(pin "USB_DM4" output
 			(at 53.34 137.16 0)
+			(uuid "8ec61f3e-d56b-47dc-99ee-140502a12090")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8ec61f3e-d56b-47dc-99ee-140502a12090")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -4155,6 +4214,10 @@
 	(sheet
 		(at 80.01 73.66)
 		(size 38.1 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4184,23 +4247,23 @@
 		)
 		(pin "PWR_EN" input
 			(at 80.01 77.47 180)
+			(uuid "1ca25fd9-723b-49e5-9221-61456ea23d46")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1ca25fd9-723b-49e5-9221-61456ea23d46")
 		)
 		(pin "VOUT" output
 			(at 118.11 77.47 0)
+			(uuid "e0fedeee-01cd-45b5-b5db-d9aa8d4d1ee8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e0fedeee-01cd-45b5-b5db-d9aa8d4d1ee8")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -4215,4 +4278,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
