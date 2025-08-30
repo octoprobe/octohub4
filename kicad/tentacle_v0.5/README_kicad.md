@@ -41,8 +41,6 @@ Update in all sheets
 
 ### In pcb - final check and final commit
 
-Menu `Tools -> Update PCB from Schematic`, only one error `Error: Multiple footprings found for 'PB101'`
-
 Menu `Tools -> Cleanup Tracks & Vias`, select all,  `Build Changes`, No violatons
 
 Menu `Inspect -> Design Rules Chacker`, check `Refill all zones`, button `Run DRC . No errors, no warnings.

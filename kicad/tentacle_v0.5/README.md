@@ -8,27 +8,23 @@
 
 * Remove silkscreen: R301, U302, R1401, R1505
 * Breadbord pads: Only one ground line to leave more space for DUT-boards
+* buffering capacitor on HUB+5V
+* GPIO Pads equal to Tentacle v3
+* LEDS less bright (Green LEDs 2k2 -> 4k7)
 
 WIP
-* Peter: Review R206 (1M)
 * RP2_INFRA_BOOT via USB Port 2
 * RP2_PROBE_BOOT via GPIO
 * RP2_PROBE_RUN via GPIO
-* RP2_DUT_PWR via GPIO
 
 TODO
 
 
-
-* LEDS less bright
-
 * Opening for big boards
 
-* buffering capacitor on HUB+5V
 
 * Voltage observer on HUB+5V
 
-* GPIO Pads equal to Tentacle v3
 
 
 * Power DUT via PICO-Infra?

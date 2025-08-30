@@ -3409,8 +3409,8 @@
 		(uuid 572c54a4-80e0-4969-9f6d-a6abff1a6304)
 	)
 	(rectangle
-		(start 45.339 98.298)
-		(end 73.66 142.24)
+		(start 45.339 96.774)
+		(end 73.66 143.51)
 		(stroke
 			(width 0)
 			(type default)
@@ -3421,8 +3421,8 @@
 		(uuid acee23aa-8369-4922-93e6-2579928b23d2)
 	)
 	(rectangle
-		(start 19.05 97.79)
-		(end 40.64 140.97)
+		(start 19.558 97.028)
+		(end 41.148 143.51)
 		(stroke
 			(width 0)
 			(type default)
@@ -3495,7 +3495,7 @@
 	)
 	(text "Power LED"
 		(exclude_from_sim no)
-		(at 21.082 102.362 0)
+		(at 21.59 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3560,7 +3560,7 @@
 	)
 	(text "Boot Sequence"
 		(exclude_from_sim no)
-		(at 48.26 101.854 0)
+		(at 48.26 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6521,7 +6521,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "4k7"
 			(at 30.3784 114.3 90)
 			(effects
 				(font
@@ -6898,7 +6898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only Type-C Receptacle connector"
 			(at 34.29 48.26 0)
 			(effects
 				(font
