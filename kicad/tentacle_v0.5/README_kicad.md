@@ -37,7 +37,11 @@ Menu `Inspect -> Electrical Rule Chacker`, button `Run ERC`, No violatons
 
 ### Increment version number
 
-Update in all sheets
+Update in all sheets (`*.kicad_*`)
+
+`(date "2025-09-02")`
+
+`(rev "0.5")`
 
 ### In pcb - final check and final commit
 
@@ -62,7 +66,7 @@ Move `~/Documents/output.pdf` to `hardware/octoprobe_kicad_v0.1/production_v0.1/
 Accept these warnings:
 ```
 The below parts won't be assembled due to data missing.
-J202,J203,J204,J103,J104,J101,J102,J105 designators don't exist in the BOM file.
+J1501,J1303,J202,UR701,UR601,J201,C216,J501,UR901,UR801,UR1101,J1502,UR1201,UR1001 designators don't exist in the BOM file.
 ```
 
 BOM

@@ -1952,6 +1952,19 @@
 		)
 		(uuid "f0abe523-5b20-47c8-81c7-e9b4fc870ac7")
 	)
+	(text "Same capacitor for tentacle and D-Link DHUB-H7\n\nC494544\n\n2.5mm distance between wires\n6.3mm diameter\n11mm height"
+		(exclude_from_sim no)
+		(at 163.068 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "febd2917-2b35-4f24-adca-6231c6a10150")
+	)
 	(junction
 		(at 170.18 38.1)
 		(diameter 0)
@@ -3321,7 +3334,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4K7"
 			(at 110.49 110.5916 90)
 			(effects
 				(font
@@ -4152,7 +4165,7 @@
 		(at 50.8 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b6257f65-f7ae-435a-a259-a8bbdaa68b11")
@@ -4531,7 +4544,7 @@
 		(at 55.88 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dd685074-d3e1-4450-a5f8-d7bb19c43433")
@@ -4695,7 +4708,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4K7"
 			(at 236.22 110.5916 90)
 			(effects
 				(font
@@ -5100,12 +5113,12 @@
 		(at 170.18 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fa877fed-9366-498e-8396-6ab02640e098")
 		(property "Reference" "C216"
-			(at 164.465 42.3926 0)
+			(at 163.83 42.418 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5113,8 +5126,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
-			(at 164.465 44.196 0)
+		(property "Value" "1000u"
+			(at 163.576 44.196 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5122,7 +5135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.8"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
 			(at 171.1452 46.99 0)
 			(effects
 				(font
@@ -5149,7 +5162,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C7465562"
+		(property "JLC" "C494544"
 			(at 133.3499 191.7701 0)
 			(effects
 				(font

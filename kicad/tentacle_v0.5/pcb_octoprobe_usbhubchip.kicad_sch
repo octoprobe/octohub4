@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Octoprobe tentacle")
-		(date "2025-09-02")
+		(date "2025-08-31")
 		(rev "0.5")
 		(company "Hans Märki, Märki Informatik")
 		(comment 1 "The MIT License (MIT)")
@@ -6521,7 +6521,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4K7"
 			(at 30.3784 114.3 90)
 			(effects
 				(font
