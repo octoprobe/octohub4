@@ -5389,7 +5389,7 @@
 		)
 	)
 	(global_label "RP2_PROBE_BOOT"
-		(shape input)
+		(shape output)
 		(at 45.72 115.57 270)
 		(fields_autoplaced yes)
 		(effects
