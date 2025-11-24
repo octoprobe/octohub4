@@ -3,6 +3,7 @@
 * Pin for scope ground
 * Labels level shifter are currently below the pins and covered by the soldered cables: They should be on top of the pins!
 * Levelshifter limitation: VCCA should not exceed VCCB
+* LED for proberun and probeboot
 
 ## Level
 
