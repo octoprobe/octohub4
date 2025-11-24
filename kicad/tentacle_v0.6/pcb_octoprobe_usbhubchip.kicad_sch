@@ -1777,6 +1777,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "00_project_library:octoprobe_breakout_BP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "octoprobe_prototype_board"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "00_project_library:octoprobe_breakout_PB"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Octoprobe Prototype Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Testpoint According to Roth Elektronik Prototyping Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "octoprobe_breakout_BP_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "octoprobe_breakout_BP_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -3409,6 +3516,18 @@
 		(uuid 572c54a4-80e0-4969-9f6d-a6abff1a6304)
 	)
 	(rectangle
+		(start 154.94 128.27)
+		(end 205.74 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 88b71261-476e-46f5-b325-2b49fc16b861)
+	)
+	(rectangle
 		(start 45.339 96.774)
 		(end 73.66 143.51)
 		(stroke
@@ -3456,6 +3575,19 @@
 		)
 		(uuid e63694aa-ef73-4811-9c61-f8e0529f4b2f)
 	)
+	(text "Scope GND Pad"
+		(exclude_from_sim no)
+		(at 157.734 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "462fe5a5-36ca-4f87-a883-6d1ff4aca354")
+	)
 	(text "Crystal"
 		(exclude_from_sim no)
 		(at 82.55 160.02 0)
@@ -3495,7 +3627,7 @@
 	)
 	(text "Power LED"
 		(exclude_from_sim no)
-		(at 21.59 101.6 0)
+		(at 22.098 100.838 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3547,7 +3679,7 @@
 	)
 	(text "VBUS_DET"
 		(exclude_from_sim no)
-		(at 88.646 102.616 0)
+		(at 81.026 100.584 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7792,6 +7924,73 @@
 		)
 	)
 	(symbol
+		(lib_id "00_project_library:octoprobe_breakout_BP")
+		(at 170.18 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cf81d67-4c69-4dc5-bad7-987d00521ec6")
+		(property "Reference" "BP203"
+			(at 172.72 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Scope GND"
+			(at 172.72 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Octoprobe Prototype Board"
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1574ba1b-cacf-47f2-976a-b40b8a15946d")
+		)
+		(instances
+			(project "pcb_octoprobe"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/cff48fa5-514e-40a1-9e85-b0c2e53fd5a3"
+					(reference "BP203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 259.08 35.56 0)
 		(unit 1)
@@ -8358,6 +8557,71 @@
 			(project "pcb_octoprobe"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/cff48fa5-514e-40a1-9e85-b0c2e53fd5a3"
 					(reference "#FLG0302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a95e0b9f-15c5-4fb0-8fce-3883275843e8")
+		(property "Reference" "#PWR0240"
+			(at 170.18 154.94 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.307 152.2222 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ccefcfb-7d87-4ddd-b812-8decc992f621")
+		)
+		(instances
+			(project "pcb_octoprobe"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/cff48fa5-514e-40a1-9e85-b0c2e53fd5a3"
+					(reference "#PWR0240")
 					(unit 1)
 				)
 			)
