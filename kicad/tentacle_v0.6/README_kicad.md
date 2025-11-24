@@ -45,6 +45,8 @@ Update in all sheets (`*.kicad_*`)
 
 ### In pcb - final check and final commit
 
+Check if the hardware version is hardcoded correctly.
+
 Menu `Tools -> Cleanup Tracks & Vias`, select all,  `Build Changes`, No violatons
 
 Menu `Inspect -> Design Rules Chacker`, check `Refill all zones`, button `Run DRC . No errors, no warnings.
