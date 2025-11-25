@@ -12,7 +12,7 @@
 		(comment 1 "The MIT License (MIT)")
 	)
 	(lib_symbols
-		(symbol "00_project_library:+3V3dut"
+		(symbol "00_project_library:+5Vdut"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -33,7 +33,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3dut"
+			(property "Value" "+5Vdut"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -77,7 +77,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3dut_0_1"
+			(symbol "+5Vdut_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -115,7 +115,7 @@
 					)
 				)
 			)
-			(symbol "+3V3dut_1_1"
+			(symbol "+5Vdut_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2104,7 +2104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:+3V3dut")
+		(lib_id "00_project_library:+5Vdut")
 		(at 125.73 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2121,7 +2121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3dut"
+		(property "Value" "+5Vdut"
 			(at 125.73 96.266 90)
 			(effects
 				(font

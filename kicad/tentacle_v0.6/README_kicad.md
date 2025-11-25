@@ -39,17 +39,15 @@ Menu `Inspect -> Electrical Rule Chacker`, button `Run ERC`, No violatons
 
 Update in all sheets (`*.kicad_*`)
 
-`(date "2025-11-24")`
+`(date "2025-09-02")`
 
-`(rev "0.6")`
+`(rev "0.5")`
 
 ### In pcb - final check and final commit
 
-Check if the hardware version is hardcoded correctly.
-
 Menu `Tools -> Cleanup Tracks & Vias`, select all,  `Build Changes`, No violatons
 
-Menu `Inspect -> Design Rules Chacker`, check `Refill all zones`, button `Run DRC . No errors, no warnings.
+Menu `Inspect -> Design Rules Checker`, check `Refill all zones`, button `Run DRC . No errors, no warnings.
 
 Delete all files in directory `production`.
 
@@ -64,6 +62,8 @@ Schematics, Menu `File -> Print`, check 'Print drawing sheet - Color`, `Print`, 
 Move `~/Documents/output.pdf` to `hardware/octoprobe_kicad_v0.1/production_v0.1/schematics_tentacle_v0.1.pdf`
 
 ### Upload to JLCPCB
+
+Tooling holes: `Added by Customer`
 
 Accept these warnings:
 ```

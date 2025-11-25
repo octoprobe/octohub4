@@ -3267,6 +3267,61 @@
 		)
 		(uuid "09864d65-f1f4-4962-93a0-9b0fa2f727da")
 	)
+	(text "0x08 hw_version"
+		(exclude_from_sim no)
+		(at 134.62 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1acc2cf4-8313-449f-b39c-72458b460845")
+	)
+	(text "0x01 hw_version"
+		(exclude_from_sim no)
+		(at 135.128 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39a6b7e8-13a3-4f48-9233-89bbaa521d1b")
+	)
+	(text "0x16 hw_version"
+		(exclude_from_sim no)
+		(at 134.62 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c02ec21-e977-4738-ac32-4eeb33e47831")
+	)
+	(text "0x04 hw_version"
+		(exclude_from_sim no)
+		(at 134.6161 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67a17eeb-c36a-4343-b06b-d6dfff025f8b")
+	)
+	(text "0x02 hw_version"
+		(exclude_from_sim no)
+		(at 134.874 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d845312-ff58-4685-8faf-16ab0f3c34d3")
+	)
 	(text "JLC alternatives\n\n| jlc | USD/Stock | Package | Comments |\n| - | - | - | - |\n| C2831468  | 0.37/1k  | SMD2520-4P | 1nd |\n| C2901596  | 0.37/1k  | SMD2520-4P | 2nd |\n| C437139   | 0.29/188 | SMD2520-4P | 2nd |\n| C387449   | 0.49/3k  | SMD2520-4P | 2nd |\n| C409301   | 0.55/2k  | SMD2520-4P | 2nd |"
 		(exclude_from_sim no)
 		(at 67.818 188.722 0)
@@ -3591,18 +3646,6 @@
 		(uuid "cfa87149-d141-4829-8e98-2f93c422cfb8")
 	)
 	(junction
-		(at 132.08 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2ad98b2-d29e-498f-924f-62b880219b59")
-	)
-	(junction
-		(at 129.54 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5e0bae9-58a7-4981-9727-be6ea8c6b34c")
-	)
-	(junction
 		(at 102.87 30.48)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -3693,16 +3736,6 @@
 			(type default)
 		)
 		(uuid "022ebdc4-58eb-4595-aaf7-c364e59e7e29")
-	)
-	(wire
-		(pts
-			(xy 134.62 101.6) (xy 132.08 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02d0aa60-52e2-4809-9eb1-1d46e39c9d16")
 	)
 	(wire
 		(pts
@@ -4043,16 +4076,6 @@
 			(type default)
 		)
 		(uuid "32b68e7a-cbf5-4cd6-b92e-6c661de4d7a4")
-	)
-	(wire
-		(pts
-			(xy 134.62 96.52) (xy 129.54 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33efff06-549c-46f8-9b76-849b407358a3")
 	)
 	(wire
 		(pts
@@ -4443,16 +4466,6 @@
 			(type default)
 		)
 		(uuid "73cfc17f-114c-47e4-8f76-e25b6d4a65ab")
-	)
-	(wire
-		(pts
-			(xy 134.62 93.98) (xy 129.54 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "786b402e-06bb-448b-9089-27802f8c24e6")
 	)
 	(wire
 		(pts
@@ -5046,16 +5059,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 99.06) (xy 129.54 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd6828cd-df63-4146-8ff1-b9ebd2742732")
-	)
-	(wire
-		(pts
 			(xy 129.54 96.52) (xy 129.54 99.06)
 		)
 		(stroke
@@ -5196,16 +5199,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 104.14) (xy 134.62 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3508e9e-f066-415f-9ab5-4bf483a025ab")
-	)
-	(wire
-		(pts
 			(xy 162.56 33.02) (xy 162.56 31.75)
 		)
 		(stroke
@@ -5328,17 +5321,6 @@
 		)
 		(uuid "44528bc3-377e-4c67-9b1d-b68d89132d66")
 	)
-	(label "HW_VERSION_1"
-		(at 134.62 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d0c0cbd-3836-491a-966c-4cf7208f827f")
-	)
 	(label "QSPI_SD2"
 		(at 135.89 76.2 180)
 		(effects
@@ -5383,17 +5365,6 @@
 		)
 		(uuid "63f22e3b-809f-49c0-b904-f365a6a09aa0")
 	)
-	(label "HW_VERSION_2"
-		(at 134.62 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d3332f8-974b-43e6-b53f-7e878f260da5")
-	)
 	(label "QSPI_SCLK"
 		(at 247.65 97.79 180)
 		(effects
@@ -5437,17 +5408,6 @@
 		)
 		(uuid "98cf5b74-aa85-46af-96e4-88a48c16f1e2")
 	)
-	(label "HW_VERSION_3"
-		(at 134.62 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "98e62214-fcda-4e44-a501-8a5a100fa28d")
-	)
 	(label "+1V1"
 		(at 182.88 27.94 0)
 		(effects
@@ -5468,17 +5428,6 @@
 		)
 		(uuid "b95a1d7a-5eab-4013-b830-f5b045cff379")
 	)
-	(label "HW_VERSION_0"
-		(at 134.62 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf7e2491-3290-4560-b579-2c9eb9f01e6a")
-	)
 	(label "QSPI_SS"
 		(at 247.65 95.25 180)
 		(effects
@@ -5489,17 +5438,6 @@
 			(justify right bottom)
 		)
 		(uuid "c94377d5-dd89-4e0f-8acc-46669931a42b")
-	)
-	(label "HW_VERSION_4"
-		(at 134.62 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4173b92-30c2-4bd6-938a-4e2a17560cd5")
 	)
 	(label "LED_ACTIVE"
 		(at 184.15 135.89 0)
@@ -5901,7 +5839,7 @@
 				)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "33R"
 			(at 128.27 89.0016 90)
 			(effects
 				(font
@@ -8462,7 +8400,7 @@
 				)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "33R"
 			(at 128.27 86.4616 90)
 			(effects
 				(font

@@ -22,6 +22,10 @@
 * RP2_PROBE_BOOT via GPIO
 * RP2_PROBE_RUN via GPIO
 
-TODO
+## History v0.5 -> v0.6
 
-* Voltage observer on HUB+5V
+ * New: Pad for scope ground
+ * Labels level shifter are currently below the pins and covered by the soldered cables: They should be on top of the pins!
+ * 2 level shifters
+ * LED for proberun and probeboot
+ * DUT was powerered 3V3, now 5V

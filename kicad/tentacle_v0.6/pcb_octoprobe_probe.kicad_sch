@@ -4213,7 +4213,7 @@
 		)
 		(uuid 6cce442b-c774-4a5c-b30e-92e7cf6001f8)
 	)
-	(text "5V DUT"
+	(text "DUT>3V3"
 		(exclude_from_sim no)
 		(at 67.818 190.5 0)
 		(effects
@@ -4224,7 +4224,7 @@
 		)
 		(uuid "0f364673-bcc8-41b8-a04a-e520046d8db4")
 	)
-	(text "2V DUT"
+	(text "DUT<3V3"
 		(exclude_from_sim no)
 		(at 110.998 190.5 0)
 		(effects
@@ -8268,7 +8268,7 @@
 		(at 115.57 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "37467443-036b-4563-8b64-e530e7bc512d")
@@ -8477,7 +8477,7 @@
 		(at 71.12 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3b14eac2-c608-4865-bc58-fec5432e2d09")
@@ -8814,7 +8814,7 @@
 				)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "33R"
 			(at 109.22 87.7316 90)
 			(effects
 				(font
@@ -9336,7 +9336,7 @@
 				)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "33R"
 			(at 109.22 90.2716 90)
 			(effects
 				(font
