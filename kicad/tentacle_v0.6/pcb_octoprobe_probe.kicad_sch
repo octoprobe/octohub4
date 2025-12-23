@@ -8507,7 +8507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txb0108.pdf"
 			(at 71.12 163.83 0)
 			(effects
 				(font
