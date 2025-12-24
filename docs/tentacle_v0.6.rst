@@ -1,9 +1,5 @@
-Tentacle v0.5 (not supported)
-==================================
-
-.. warning::
-
-    Version v0.4 is now obsolete as it has been superseded by v0.6!
+Tentacle v0.6 (recommended)
+=============================
 
 This repo describes the hardware of a tentacle:
 
@@ -12,7 +8,7 @@ See also: :doc:`tentacle_v0.3`
 Schematics
 ----------
 
-:download:`Schematics v0.5 (Pdf) <../kicad/tentacle_v0.5/production_v0.5/schematics_tentacle_v0.5.pdf>`.
+:download:`Schematics v0.6 (Pdf) <../kicad/tentacle_v0.6/production_v0.6/schematics_tentacle_v0.6.pdf>`.
 
 PCB
 ---
@@ -20,12 +16,35 @@ PCB
 
 The assembled PCB may be ordered at https://www.jclpcb.com. The production files are located here: `kicad/kicad_tentacle_v0.5/production_v0.5`.
 
-The price of a assembled PCB is ~USD12 when ordering 30 pieces.
+The price of a assembled PCB is:
+
+.. list-table::
+    :header-rows: 1
+    :align: right
+
+    * - Pieces
+      - USD total
+      - USD per piece
+    * - 5
+      - 109
+      - 21.8
+    * - 10
+      - 151
+      - 15.1
+    * - 15
+      - 202
+      - 13.5
+    * - 20
+      - 252
+      - 12.6
+    * - 25
+      - 345
+      - 13.8
 
 The tentacle is described in more detail in :doc:`octoprobe:big_picture`
 
 
-.. image:: tentacle_images/tentacle_intro_v0.5.drawio.png
+.. image:: tentacle_images/tentacle_intro_v0.6.drawio.png
 
 
 USB and Power

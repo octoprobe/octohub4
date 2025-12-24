@@ -1,9 +1,6 @@
 Octoprobe: Tentacle
 ===========================
 
-.. image:: tentacle_images/tentacle_intro_v0.4.drawio.png
-   :height: 300px
-
 .. toctree::
     :caption: Contents:
 
@@ -15,6 +12,7 @@ Octoprobe: Tentacle
 
 Indices and tables
 ==================
+
 * :ref:`genindex`
 * :ref:`search`
 * :ref:`modindex`

@@ -1,5 +1,5 @@
-Tentacle v0.3
-===================
+Tentacle v0.3 (30 pieces produced)
+====================================================
 
 This repo describes the hardware of a tentacle:
 
@@ -16,7 +16,7 @@ The assembled PCB may be ordered at https://www.jclpcb.com. The production files
 
 The price of a assembled PCB is ~USD10 when ordering 30 pieces.
 
-The tentacle is described in more detail in :external+octoprobe:doc:`Octoprobe <README>`
+The tentacle is described in more detail in :doc:`octoprobe:big_picture`
 
 
 .. image:: tentacle_images/tentacle_intro_v0.3.drawio.png
