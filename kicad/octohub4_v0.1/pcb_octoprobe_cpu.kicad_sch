@@ -5,9 +5,9 @@
 	(uuid "71f22cdd-d2e8-428f-a493-ba818011117e")
 	(paper "A4")
 	(title_block
-		(title "Octoprobe tentacle")
-		(date "2025-11-24")
-		(rev "0.6")
+		(title "Octohub4")
+		(date "2026-01-11")
+		(rev "0.1")
 		(company "Hans Märki, Märki Informatik")
 		(comment 1 "The MIT License (MIT)")
 	)

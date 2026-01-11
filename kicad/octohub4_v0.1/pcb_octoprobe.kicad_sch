@@ -5,9 +5,9 @@
 	(uuid "35c47459-45a7-4753-acae-c8b47e7575e1")
 	(paper "A4")
 	(title_block
-		(title "Octoprobe tentacle")
-		(date "2025-11-24")
-		(rev "0.6")
+		(title "Octohub4")
+		(date "2026-01-11")
+		(rev "0.1")
 		(company "Hans Märki, Märki Informatik")
 		(comment 1 "The MIT License (MIT)")
 	)
@@ -1373,16 +1373,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 86.36) (xy 213.36 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d13160-75ae-4123-b486-c00960d67765")
-	)
-	(wire
-		(pts
 			(xy 125.73 111.76) (xy 125.73 114.3)
 		)
 		(stroke
@@ -1390,16 +1380,6 @@
 			(type default)
 		)
 		(uuid "1ebe6308-43a0-4cbd-9027-389bf645a107")
-	)
-	(wire
-		(pts
-			(xy 213.36 86.36) (xy 215.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e752fc-c55f-4e48-9828-0c7c81e122a4")
 	)
 	(wire
 		(pts
@@ -1550,16 +1530,6 @@
 			(type default)
 		)
 		(uuid "9688c25a-46e3-489b-940f-003d5f634d77")
-	)
-	(wire
-		(pts
-			(xy 213.36 105.41) (xy 215.9 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ecaa617-f027-4d80-b1db-8013af77d925")
 	)
 	(wire
 		(pts
@@ -2811,236 +2781,6 @@
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
 					(reference "NT103")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 81.28)
-		(size 44.958 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "24d7d496-8920-4421-a637-0c9bf263a085")
-		(property "Sheetname" "RP2 CPU"
-			(at 215.9 80.5684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pcb_octoprobe_cpu.kicad_sch"
-			(at 215.9 94.5646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "12MHz" output
-			(at 215.9 86.36 180)
-			(uuid "16ac922d-ef10-47e5-b6c3-41db49142eae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "pcb_octoprobe"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 143.51)
-		(size 45.72 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "290edc0f-259a-4a81-bb28-767ae8aa5342")
-		(property "Sheetname" "Prototype Area"
-			(at 215.9 142.7984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pcb_octoprobe_prototype_area.kicad_sch"
-			(at 215.9 156.7946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pcb_octoprobe"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 121.92)
-		(size 45.72 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6546fe85-dd41-453d-98b0-9b6f35fb87fd")
-		(property "Sheetname" "Relay Breakout"
-			(at 215.9 121.2084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pcb_octoprobe_relay_breakout.kicad_sch"
-			(at 215.9 135.2046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pcb_octoprobe"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 58.42)
-		(size 44.45 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ca80583c-f2d8-4707-8692-a71188348d5f")
-		(property "Sheetname" "Regulator 3V3"
-			(at 215.9 57.7084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pcb_octoprobe_regulator3V3.kicad_sch"
-			(at 215.9 71.7046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pcb_octoprobe"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 101.6)
-		(size 44.958 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "cd9bbde0-3ad0-43d1-a674-4a86d38bbcb3")
-		(property "Sheetname" "RP2 PROBE"
-			(at 215.9 100.8884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pcb_octoprobe_probe.kicad_sch"
-			(at 215.9 114.8846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "12MHz" input
-			(at 215.9 105.41 180)
-			(uuid "b4a02dd0-1305-45c9-9350-9c38e0ed1c60")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "pcb_octoprobe"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(page "15")
 				)
 			)
 		)

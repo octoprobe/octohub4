@@ -852,56 +852,8 @@
       "Root"
     ],
     [
-      "24d7d496-8920-4421-a637-0c9bf263a085",
-      "RP2 CPU"
-    ],
-    [
       "cff48fa5-514e-40a1-9e85-b0c2e53fd5a3",
       "USB Hub Chip"
-    ],
-    [
-      "6546fe85-dd41-453d-98b0-9b6f35fb87fd",
-      "Relay Breakout"
-    ],
-    [
-      "ef104267-4346-4f2e-9eff-a3788359729c",
-      "Relay 1"
-    ],
-    [
-      "e7ee32a2-f587-4a93-9710-ec8609dfb50b",
-      "Relay 2"
-    ],
-    [
-      "f26e04d3-5a13-44f7-8e87-f1ee92fb659b",
-      "Relay 3"
-    ],
-    [
-      "fdcd82e4-82d2-49d0-afb5-eac182e2d36c",
-      "Relay 4"
-    ],
-    [
-      "c4f0e93e-0e5b-4500-9781-4e2df6e7b677",
-      "Relay 5"
-    ],
-    [
-      "401258f3-4e65-4224-8043-f8fa2b007639",
-      "Relay 6"
-    ],
-    [
-      "aa228a66-0806-4820-976d-dd91b57f82ce",
-      "Relay 7"
-    ],
-    [
-      "290edc0f-259a-4a81-bb28-767ae8aa5342",
-      "Prototype Area"
-    ],
-    [
-      "cd9bbde0-3ad0-43d1-a674-4a86d38bbcb3",
-      "RP2 PROBE"
-    ],
-    [
-      "ca80583c-f2d8-4707-8692-a71188348d5f",
-      "Regulator 3V3"
     ]
   ],
   "text_variables": {}
