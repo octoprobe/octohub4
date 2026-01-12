@@ -4,9 +4,9 @@
 **/__pycache__/
 **/*.py_
 kicad/octohub4_v*/production/backups
-kicad/octohub4_v*/pcb_octoprobe-backups/*
+kicad/octohub4_v*/pcb_octohub4-backups/*
 kicad/octohub4_v*/00_project_library.bak
 kicad/octohub4_v*/replicate_layout.log
-kicad/octohub4_v*/pcb_octoprobe.kicad_sch-bak
+kicad/octohub4_v*/pcb_octohub4.kicad_sch-bak
 docs/_build/**
 docs/tentacle_v0.5_images/*.drawio.svg.bkp
