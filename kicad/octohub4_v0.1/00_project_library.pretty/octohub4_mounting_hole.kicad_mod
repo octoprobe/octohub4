@@ -108,6 +108,18 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/standoff_m3_8mm/standoff_m3_8mm.stp"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+	(model "${KIPRJMOD}/standoff_m3_16mm/standoff_m3_16mm.stp"
 		(offset
 			(xyz 0 0 0)
 		)
