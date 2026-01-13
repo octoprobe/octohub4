@@ -64,7 +64,7 @@ https://jlcpcb.com/partdetail/XKBConnection-DC_044A_2_5A_20/C319095
     USD0.3
     https://www.helloxkb.com/Home/Goods/goodsInfoxq/id/23915.html
 
-    <<=== CHOICE
+    <<=== SELECTED
 
     compatible with
     https://www.digikey.ch/en/products/detail/tensility-international-corp/54-00127/9685436
@@ -101,7 +101,7 @@ https://www.digikey.ch/en/products/detail/tensility-international-corp/54-00127/
     With Switch
     6A !
     chf0.6
-    **Assymetric, robust**
+    **Asymetric, robust**
 
 https://www.digikey.ch/en/products/detail/tensility-international-corp/54-00133/9685442
 
