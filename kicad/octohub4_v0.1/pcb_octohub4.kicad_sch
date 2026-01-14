@@ -756,12 +756,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "00_project_library:USB-226-BRW"
+		(symbol "00_project_library:USB231ARY"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 24.13 7.62 0)
+				(at 9.906 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -769,8 +769,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "USB-226-BRW"
-				(at 24.13 5.08 0)
+			(property "Value" "USB231ARY"
+				(at 6.858 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -778,7 +778,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "USB226BRW"
+			(property "Footprint" "00_project_library:USB231ARY"
 				(at 24.13 -94.92 0)
 				(effects
 					(font
@@ -853,9 +853,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "USB-226-BRW_1_1"
+			(symbol "USB231ARY_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 22.86 -10.16)
@@ -940,70 +941,16 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 0 180)
+					(at 27.94 -3.81 180)
 					(length 5.08)
-					(name "MH1"
+					(name "MH"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "MH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -7.62 180)
-					(length 5.08)
-					(name "MH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH4"
+					(number "MH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1201,7 +1148,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Barrel_Jack_Switch"
+		(symbol "Connector:Barrel_Jack_Switch_MountingPin"
 			(pin_names
 				(hide yes)
 			)
@@ -1216,12 +1163,13 @@
 					)
 				)
 			)
-			(property "Value" "Barrel_Jack_Switch"
-				(at 0 -5.08 0)
+			(property "Value" "Barrel_Jack_Switch_MountingPin"
+				(at 1.27 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1242,7 +1190,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Barrel Jack with an internal switch"
+			(property "Description" "DC Barrel Jack with an internal switch and a mounting pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1269,7 +1217,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Barrel_Jack_Switch_0_1"
+			(symbol "Barrel_Jack_Switch_MountingPin_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -1365,7 +1313,45 @@
 					)
 				)
 			)
-			(symbol "Barrel_Jack_Switch_1_1"
+			(symbol "Barrel_Jack_Switch_MountingPin_1_1"
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -2209,6 +2195,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2402,6 +2513,18 @@
 		(uuid "cd2ff2ea-c763-4013-b130-2b1d5e7bd0c5")
 	)
 	(junction
+		(at 214.63 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7813a328-cc14-478f-b8e3-de18140d3e38")
+	)
+	(junction
+		(at 214.63 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78e14d04-e0af-453a-be4d-3b5dd19318e6")
+	)
+	(junction
 		(at 125.73 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2491,6 +2614,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 31.75) (xy 214.63 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3569e0d6-324e-497c-bce1-850ad0eab0b3")
+	)
+	(wire
+		(pts
 			(xy 92.71 77.47) (xy 99.06 77.47)
 		)
 		(stroke
@@ -2538,6 +2671,26 @@
 			(type default)
 		)
 		(uuid "669ec013-4fbb-47c7-8e72-1f17abb4e6b6")
+	)
+	(wire
+		(pts
+			(xy 214.63 36.83) (xy 223.52 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683ce602-951f-4183-8937-dd6e7ad6d542")
+	)
+	(wire
+		(pts
+			(xy 207.01 36.83) (xy 214.63 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69401fcd-a4ad-4aec-b924-703ca304593b")
 	)
 	(wire
 		(pts
@@ -2591,6 +2744,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 26.67) (xy 214.63 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec6460b-a13c-48c5-a5b0-50153cae42fd")
+	)
+	(wire
+		(pts
 			(xy 125.73 100.33) (xy 125.73 104.14)
 		)
 		(stroke
@@ -2628,6 +2791,16 @@
 			(type default)
 		)
 		(uuid "a27e5a72-4761-4ac7-b9c2-bc1f1b3c8f84")
+	)
+	(wire
+		(pts
+			(xy 214.63 29.21) (xy 214.63 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abca645a-a92b-4b67-884c-c435dec3be06")
 	)
 	(wire
 		(pts
@@ -2932,6 +3105,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 247.65 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13c9658f-d0ac-4717-9e57-7f5239592df6")
+		(property "Reference" "#PWR0202"
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a65d24e-5b0e-4668-af94-4377da499269")
+		)
+		(instances
+			(project ""
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 223.52 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ad276b2-0e3d-4954-a0de-53e127802539")
+		(property "Reference" "#PWR0203"
+			(at 223.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 223.52 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 223.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b899cd6-adb3-48d0-9f86-c2a4181c17c5")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
 		(at 78.74 109.22 0)
 		(mirror x)
@@ -3228,8 +3533,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 246.38 33.02 0)
+		(lib_id "Connector:Barrel_Jack_Switch_MountingPin")
+		(at 207.01 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3238,7 +3543,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bc03a85-9688-4dc0-96e6-5c5f15195dd6")
 		(property "Reference" "J203"
-			(at 246.38 24.13 0)
+			(at 207.01 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3551,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at 246.38 26.67 0)
+			(at 207.01 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +3559,7 @@
 			)
 		)
 		(property "Footprint" "00_project_library:BarrelJack_D5.5mm"
-			(at 247.65 34.036 0)
+			(at 208.28 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,8 +3567,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588896376407134208"
-			(at 247.65 34.036 0)
+		(property "Datasheet" "~"
+			(at 208.28 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,8 +3576,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 246.38 33.02 0)
+		(property "Description" "DC Barrel Jack with an internal switch and a mounting pin"
+			(at 207.01 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +3586,7 @@
 			)
 		)
 		(property "JLCPCB" "C319095"
-			(at 246.38 33.02 0)
+			(at 207.01 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,6 +3603,9 @@
 		(pin "2"
 			(uuid "289a6269-c7dd-405c-a46d-bca16b4eeac8")
 		)
+		(pin "MP"
+			(uuid "c74504eb-dc64-4354-b7a2-066100e9238a")
+		)
 		(instances
 			(project ""
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
@@ -3308,7 +3616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:USB-226-BRW")
+		(lib_id "00_project_library:USB231ARY")
 		(at 194.31 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3317,19 +3625,21 @@
 		(dnp no)
 		(uuid "5eba3374-4cf9-400e-ba70-d96a4b6633e8")
 		(property "Reference" "J104"
-			(at 208.534 108.204 0)
+			(at 204.216 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Value" "USB-231-ARY"
-			(at 208.534 110.744 0)
+		(property "Value" "USB231ARY"
+			(at 201.168 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "00_project_library:USB231ARY"
@@ -3342,7 +3652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8608741080523153408"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310231710_XUNPU-USB-226-BRW_C720524.pdf"
 			(at 218.44 310.49 0)
 			(effects
 				(font
@@ -3352,7 +3662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
 			(at 194.31 115.57 0)
 			(effects
 				(font
@@ -3381,7 +3691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "USB-231-ARY"
+		(property "Manufacturer_Part_Number" "USB-226-BRW"
 			(at 218.44 710.49 0)
 			(effects
 				(font
@@ -3391,7 +3701,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C720525"
+		(property "JLC" "C720524"
 			(at 218.44 810.49 0)
 			(effects
 				(font
@@ -3401,20 +3711,20 @@
 				(hide yes)
 			)
 		)
-		(pin "MH4"
-			(uuid "64cc15bc-10a1-46a2-88d5-3bdff29d1212")
+		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
 			(uuid "20c5babb-a3e0-4b2e-977e-ed46c57e3d85")
 		)
-		(pin "MH2"
+		(pin "MH"
 			(uuid "71603621-b7a0-4051-8620-571c49e4dd2a")
-		)
-		(pin "MH1"
-			(uuid "fc478609-37b6-4081-ac50-794bd54f991d")
-		)
-		(pin "MH3"
-			(uuid "e1a41e3c-8cb5-4f80-8188-9643bee994dd")
 		)
 		(pin "4"
 			(uuid "f24dbaaa-ddf1-4057-a679-2a4e872d984e")
@@ -3662,7 +3972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:USB-226-BRW")
+		(lib_id "00_project_library:USB231ARY")
 		(at 193.04 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3671,19 +3981,21 @@
 		(dnp no)
 		(uuid "85318c48-6970-4ed1-85f5-1b825f027e37")
 		(property "Reference" "J103"
-			(at 207.264 85.344 0)
+			(at 202.946 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Value" "USB-231-ARY"
-			(at 207.264 87.884 0)
+		(property "Value" "USB231ARY"
+			(at 199.898 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "00_project_library:USB231ARY"
@@ -3696,7 +4008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8608741080523153408"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310231710_XUNPU-USB-226-BRW_C720524.pdf"
 			(at 217.17 287.63 0)
 			(effects
 				(font
@@ -3706,7 +4018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
 			(at 193.04 92.71 0)
 			(effects
 				(font
@@ -3735,7 +4047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "USB-231-ARY"
+		(property "Manufacturer_Part_Number" "USB-226-BRW"
 			(at 217.17 687.63 0)
 			(effects
 				(font
@@ -3745,7 +4057,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C720525"
+		(property "JLC" "C720524"
 			(at 217.17 787.63 0)
 			(effects
 				(font
@@ -3755,20 +4067,20 @@
 				(hide yes)
 			)
 		)
-		(pin "MH4"
-			(uuid "b71e75ef-45fe-469d-ba21-60fa86f96c70")
+		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
+			(at 193.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
 			(uuid "fc3dccf3-299d-4a0a-8f3b-80a97ea87445")
 		)
-		(pin "MH2"
+		(pin "MH"
 			(uuid "07c88b67-28c6-46eb-8d14-0c17b589dd15")
-		)
-		(pin "MH1"
-			(uuid "55ef4554-9cc4-4e89-8dc0-d122c96fcc83")
-		)
-		(pin "MH3"
-			(uuid "33f3a3fc-b024-4204-8746-1ef34d2e23d1")
 		)
 		(pin "4"
 			(uuid "aa642b3a-db72-4958-b673-f19291fad85c")
@@ -3864,8 +4176,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 247.65 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cc9f641-d591-4187-acfd-dd3835436e94")
+		(property "Reference" "#PWR0201"
+			(at 247.65 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 247.65 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 247.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60d0e216-e918-46bb-aa5d-7acef7bc4617")
+		)
+		(instances
+			(project ""
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 196.85 24.13 0)
+		(at 252.73 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3874,7 +4252,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f704c79-01d6-45d8-aec0-866a9c7f0403")
 		(property "Reference" "J201"
-			(at 199.39 24.1299 0)
+			(at 255.27 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +4261,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 199.39 26.6699 0)
+			(at 255.27 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +4270,7 @@
 			)
 		)
 		(property "Footprint" "00_project_library:KF235-2P"
-			(at 196.85 24.13 0)
+			(at 252.73 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +4279,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 24.13 0)
+			(at 252.73 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +4288,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 196.85 24.13 0)
+			(at 252.73 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4066,7 +4444,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:USB-226-BRW")
+		(lib_id "00_project_library:USB231ARY")
 		(at 191.77 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4075,19 +4453,21 @@
 		(dnp no)
 		(uuid "cb0147d2-93e2-4460-9975-6fef01ece6f4")
 		(property "Reference" "J101"
-			(at 205.994 40.894 0)
+			(at 201.676 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Value" "USB-231-ARY"
-			(at 205.994 43.434 0)
+		(property "Value" "USB231ARY"
+			(at 198.628 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "00_project_library:USB231ARY"
@@ -4100,7 +4480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8608741080523153408"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310231710_XUNPU-USB-226-BRW_C720524.pdf"
 			(at 215.9 243.18 0)
 			(effects
 				(font
@@ -4110,7 +4490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
 			(at 191.77 48.26 0)
 			(effects
 				(font
@@ -4139,7 +4519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "USB-231-ARY"
+		(property "Manufacturer_Part_Number" "USB-226-BRW"
 			(at 215.9 643.18 0)
 			(effects
 				(font
@@ -4149,7 +4529,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C720525"
+		(property "JLC" "C720524"
 			(at 215.9 743.18 0)
 			(effects
 				(font
@@ -4159,20 +4539,20 @@
 				(hide yes)
 			)
 		)
-		(pin "MH4"
-			(uuid "a04c2b5d-a7e6-4363-8658-7361c5374aa8")
+		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
+			(at 191.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
 			(uuid "560a6bc1-daf8-4d7d-8fcb-69520dcccc40")
 		)
-		(pin "MH2"
+		(pin "MH"
 			(uuid "f0bed28b-32ca-4007-baf4-6710f2b7bd48")
-		)
-		(pin "MH1"
-			(uuid "30895849-20b5-4113-8b3a-251afc8ccebd")
-		)
-		(pin "MH3"
-			(uuid "63c64559-2c87-42b9-ba32-e1dac784ee9a")
 		)
 		(pin "4"
 			(uuid "01e8c40c-da38-4ba6-a994-d79dad7d3627")
@@ -4252,6 +4632,72 @@
 			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5184b78-4754-42d7-b804-7328bff12169")
+		(property "Reference" "#PWR0204"
+			(at 223.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60a61b71-8b89-4534-b374-d6e2506607ba")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -4634,7 +5080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:USB-226-BRW")
+		(lib_id "00_project_library:USB231ARY")
 		(at 191.77 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4643,19 +5089,21 @@
 		(dnp no)
 		(uuid "e80a5ae0-7068-40c6-b02e-ae2f448134ce")
 		(property "Reference" "J102"
-			(at 205.994 63.754 0)
+			(at 201.676 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Value" "USB-231-ARY"
-			(at 205.994 66.294 0)
+		(property "Value" "USB231ARY"
+			(at 198.628 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "00_project_library:USB231ARY"
@@ -4668,7 +5116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8608741080523153408"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310231710_XUNPU-USB-226-BRW_C720524.pdf"
 			(at 215.9 266.04 0)
 			(effects
 				(font
@@ -4678,7 +5126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
 			(at 191.77 71.12 0)
 			(effects
 				(font
@@ -4707,7 +5155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "USB-231-ARY"
+		(property "Manufacturer_Part_Number" "USB-226-BRW"
 			(at 215.9 666.04 0)
 			(effects
 				(font
@@ -4717,7 +5165,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C720525"
+		(property "JLC" "C720524"
 			(at 215.9 766.04 0)
 			(effects
 				(font
@@ -4727,20 +5175,20 @@
 				(hide yes)
 			)
 		)
-		(pin "MH4"
-			(uuid "5137012e-d576-437d-b527-dbaa630071f6")
+		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
+			(at 191.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
 			(uuid "80db8b9a-2c0e-43c3-b944-b41ccc3c4a9c")
 		)
-		(pin "MH2"
-			(uuid "8c7581e1-45eb-458b-b0be-d7975b919eb2")
-		)
-		(pin "MH1"
+		(pin "MH"
 			(uuid "d886b1f6-9dfe-465b-80ee-ee5c92132535")
-		)
-		(pin "MH3"
-			(uuid "d5a01a96-a50c-441f-b3fc-ad3ca6639696")
 		)
 		(pin "4"
 			(uuid "7bbf45ad-ad90-45b9-95e2-51d9b5bffcc3")

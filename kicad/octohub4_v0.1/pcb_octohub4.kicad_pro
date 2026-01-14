@@ -539,24 +539,6 @@
       },
       {
         "bus_width": 12,
-        "line_style": 2,
-        "name": "3V3dut",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(255, 128, 0)",
-        "wire_width": 12
-      },
-      {
-        "bus_width": 6,
-        "line_style": 0,
-        "name": "3V3infra",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(255, 128, 0)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -565,7 +547,7 @@
         "microvia_drill": 0.1,
         "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.4,
@@ -577,7 +559,7 @@
         "line_style": 1,
         "name": "5Vbuf",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 4,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 16
       },
@@ -591,7 +573,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.15,
         "via_diameter": 0.4,
@@ -608,7 +590,7 @@
         "microvia_drill": 0.1,
         "name": "HUB5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 3,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.4,
@@ -625,7 +607,7 @@
         "microvia_drill": 0.1,
         "name": "Medium",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.4,
@@ -642,7 +624,7 @@
         "microvia_drill": 0.1,
         "name": "UsbDifferential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.7,
         "via_diameter": 0.4,
@@ -659,7 +641,7 @@
         "microvia_drill": 0.1,
         "name": "Wide",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "via_diameter": 0.4,
@@ -703,18 +685,6 @@
       {
         "netclass": "UsbDifferential",
         "pattern": "/USB_*_D*"
-      },
-      {
-        "netclass": "5Vbuf",
-        "pattern": "+5Vbuf"
-      },
-      {
-        "netclass": "3V3infra",
-        "pattern": "+3V3infra"
-      },
-      {
-        "netclass": "3V3dut",
-        "pattern": "+3V3dut"
       }
     ]
   },
