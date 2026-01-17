@@ -12,131 +12,6 @@
 		(comment 1 "The MIT License (MIT)")
 	)
 	(lib_symbols
-		(symbol "00_project_library:+5Vdut"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5Vdut"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5Vdut_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5Vdut_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "00_project_library:HUB+5V"
 			(power)
 			(pin_numbers
@@ -252,500 +127,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "00_project_library:LED WHITE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED WHITE"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "00_project_library:LED_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLC" "C2290"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED WHITE_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED WHITE_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "00_project_library:TPS259474LRPWR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TPS259474LRPWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "00_project_library:TPS259474LRPWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tps25947"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB" "C2864845"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "TPS259474LRPWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RPW0010A-MFG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPS259474LRPWR_0_1"
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 -22.86)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -22.86) (xy 33.02 -22.86)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -22.86) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "EN_UVLO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "OVCSEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "ITIMER"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -20.32 0)
-					(length 5.08)
-					(name "dVdt"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 38.1 0 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 38.1 -5.08 180)
-					(length 5.08)
-					(name "PGTH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 38.1 -10.16 180)
-					(length 5.08)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 38.1 -15.24 180)
-					(length 5.08)
-					(name "ILM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 38.1 -20.32 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1148,810 +529,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Barrel_Jack_Switch_MountingPin"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Barrel_Jack_Switch_MountingPin"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack with an internal switch and a mounting pin"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_MountingPin_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.286) (xy 1.905 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_MountingPin_1_1"
-				(polyline
-					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x05"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Graphic:Logo_Open_Hardware_Small"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -2088,238 +665,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2424,7 +769,7 @@
 	)
 	(rectangle
 		(start 17.78 19.05)
-		(end 179.07 157.48)
+		(end 179.07 133.35)
 		(stroke
 			(width 0)
 			(type default)
@@ -2433,71 +778,6 @@
 			(type none)
 		)
 		(uuid 0d8b48ef-77fb-420d-ae33-1d29b0ab5106)
-	)
-	(text "Port 2: Infra - RP2 BOOT"
-		(exclude_from_sim no)
-		(at 23.876 61.976 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "05f50c19-96b8-4d5c-b39d-e1f19c7d78da")
-	)
-	(text "Port 4: Probe - RP2"
-		(exclude_from_sim no)
-		(at 24.638 123.444 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "55ef5ac5-1000-4e5d-a036-b13e90975f7c")
-	)
-	(text "Port 3: DUT"
-		(exclude_from_sim no)
-		(at 23.114 91.948 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c9884ee-fe76-4de7-a0e9-00d8bd19e8ad")
-	)
-	(text "USB DUT"
-		(exclude_from_sim no)
-		(at 145.796 114.046 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-		(uuid "775b836d-88ce-4175-93d2-62cade78f2d0")
-	)
-	(text "Port 1: Infra - RP2"
-		(exclude_from_sim no)
-		(at 23.876 34.798 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4c2f833-b955-41ab-8b79-b617608d61d0")
 	)
 	(text "USB Hub"
 		(exclude_from_sim no)
@@ -2513,204 +793,168 @@
 		(uuid "cd2ff2ea-c763-4013-b130-2b1d5e7bd0c5")
 	)
 	(junction
-		(at 214.63 36.83)
+		(at 123.19 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7813a328-cc14-478f-b8e3-de18140d3e38")
+		(uuid "431d297d-65c6-40cc-a171-c0513fce0756")
 	)
 	(junction
-		(at 214.63 31.75)
+		(at 123.19 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78e14d04-e0af-453a-be4d-3b5dd19318e6")
+		(uuid "4e6d46a2-15c9-4e3e-8c23-8379e01bfbbb")
 	)
 	(junction
-		(at 125.73 114.3)
+		(at 123.19 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "abae14bc-4014-46ff-bcb1-b318e6dc48c5")
-	)
-	(junction
-		(at 92.71 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "caccd499-d805-46b6-924b-96b099021c81")
+		(uuid "dd9e9e97-0ea5-4431-900c-1fd6aa6b07f1")
 	)
 	(no_connect
-		(at 53.34 67.31)
-		(uuid "1e53d80a-6ed9-4f20-b6ea-51ae0deeb506")
+		(at 53.34 92.71)
+		(uuid "3158a072-0f9b-415c-9ea4-a8e48a3fafeb")
 	)
 	(no_connect
-		(at 53.34 147.32)
+		(at 53.34 44.45)
+		(uuid "41d5c986-3fe9-426a-a09d-d9c2250e6839")
+	)
+	(no_connect
+		(at 53.34 118.11)
 		(uuid "423bb31d-4adc-416f-bb1a-63e505c0547d")
 	)
 	(no_connect
-		(at 53.34 64.77)
-		(uuid "af5bbd5f-72f0-4d01-8aed-aeac9b154ea7")
-	)
-	(no_connect
-		(at 53.34 111.76)
-		(uuid "e750ac57-30eb-42f5-99e4-ac437357b8c2")
+		(at 53.34 68.58)
+		(uuid "b7876dd5-5b81-4282-aaee-1e316e9c4916")
 	)
 	(wire
 		(pts
-			(xy 97.79 52.07) (xy 53.34 52.07)
+			(xy 123.19 34.29) (xy 123.19 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05d009f4-1a0e-4397-b4af-54ae1acfc540")
+		(uuid "01c71550-82b7-444c-81cc-12d051a95e27")
 	)
 	(wire
 		(pts
-			(xy 81.28 39.37) (xy 109.22 39.37)
+			(xy 81.28 113.03) (xy 110.49 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1092320f-faca-49ca-a705-b6130d585a8d")
+		(uuid "0cb9d68e-d1dc-4147-b75e-a3a90cf151be")
 	)
 	(wire
 		(pts
-			(xy 125.73 104.14) (xy 133.35 104.14)
+			(xy 114.3 63.5) (xy 130.81 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10c57833-3b0d-46fa-8ccd-ae77957417d7")
+		(uuid "17ca6133-92c1-4863-83c9-b14e5dc04b1a")
 	)
 	(wire
 		(pts
-			(xy 125.73 111.76) (xy 125.73 114.3)
+			(xy 132.08 107.95) (xy 123.19 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ebe6308-43a0-4cbd-9027-389bf645a107")
+		(uuid "1da1a2ce-feb9-48a1-bafb-2db8ae128f58")
 	)
 	(wire
 		(pts
-			(xy 53.34 106.68) (xy 76.2 106.68)
+			(xy 53.34 87.63) (xy 76.2 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22f53210-dc93-4137-b16b-7d0a4cbde011")
+		(uuid "1ea5c875-39b9-4ce9-8622-436a8f3ac33b")
 	)
 	(wire
 		(pts
-			(xy 92.71 67.31) (xy 92.71 77.47)
+			(xy 123.19 31.75) (xy 123.19 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "260832a5-d0f4-4ef1-a042-c8e571334f92")
+		(uuid "2ea51a2d-5abd-4b62-b852-4a569391599e")
 	)
 	(wire
 		(pts
-			(xy 214.63 31.75) (xy 214.63 36.83)
+			(xy 132.08 113.03) (xy 115.57 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3569e0d6-324e-497c-bce1-850ad0eab0b3")
+		(uuid "36885c6c-4c3f-4b23-aaaa-6969d2f23c13")
 	)
 	(wire
 		(pts
-			(xy 92.71 77.47) (xy 99.06 77.47)
+			(xy 53.34 63.5) (xy 76.2 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3debf469-03b1-43bd-bbc2-2b8e4943a0a6")
+		(uuid "3b632bdf-b231-4f81-bc7d-a36fad06e66d")
 	)
 	(wire
 		(pts
-			(xy 81.28 109.22) (xy 110.49 109.22)
+			(xy 53.34 85.09) (xy 76.2 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4929aca3-4c99-4ea5-803e-6fc6b89300a1")
+		(uuid "3cabf9f1-29f1-4392-84fe-71506b3f8287")
 	)
 	(wire
 		(pts
-			(xy 82.55 142.24) (xy 110.49 142.24)
+			(xy 81.28 36.83) (xy 109.22 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c0d3b82-fca8-4792-9d3c-791cb634210c")
+		(uuid "3fdb2066-2526-4d11-ad58-ae93a69f2417")
 	)
 	(wire
 		(pts
-			(xy 115.57 109.22) (xy 133.35 109.22)
+			(xy 132.08 110.49) (xy 115.57 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51f54cda-4ae9-4309-92b3-a52872d9cfee")
+		(uuid "4dbe3db6-5851-4ad5-bb2e-1e3b8f89e20f")
 	)
 	(wire
 		(pts
-			(xy 53.34 77.47) (xy 92.71 77.47)
+			(xy 123.19 34.29) (xy 130.81 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "669ec013-4fbb-47c7-8e72-1f17abb4e6b6")
+		(uuid "62ce7e15-7021-4096-8340-4380e3704652")
 	)
 	(wire
 		(pts
-			(xy 214.63 36.83) (xy 223.52 36.83)
+			(xy 123.19 58.42) (xy 130.81 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "683ce602-951f-4183-8937-dd6e7ad6d542")
-	)
-	(wire
-		(pts
-			(xy 207.01 36.83) (xy 214.63 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69401fcd-a4ad-4aec-b924-703ca304593b")
-	)
-	(wire
-		(pts
-			(xy 125.73 111.76) (xy 133.35 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f2a2c6f-fff9-4ef0-8ed4-c5511bc10d47")
-	)
-	(wire
-		(pts
-			(xy 82.55 144.78) (xy 110.49 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75d67776-5546-43ff-b63d-ab8074620096")
+		(uuid "64da51ad-252d-4244-af89-d9005f9d8404")
 	)
 	(wire
 		(pts
@@ -2724,83 +968,43 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 67.31) (xy 113.03 67.31)
+			(xy 81.28 87.63) (xy 110.49 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a0d3f78-38e5-462c-8972-a765217779ed")
+		(uuid "8c37ee2e-637e-4445-a96c-184da3b096d5")
 	)
 	(wire
 		(pts
-			(xy 81.28 106.68) (xy 110.49 106.68)
+			(xy 53.34 60.96) (xy 76.2 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e185faf-dd10-4600-8cb8-992aaff27eff")
+		(uuid "9b0de8ca-d2b2-4809-bcea-b7bdb9e39f1e")
 	)
 	(wire
 		(pts
-			(xy 223.52 26.67) (xy 214.63 26.67)
+			(xy 81.28 63.5) (xy 109.22 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ec6460b-a13c-48c5-a5b0-50153cae42fd")
+		(uuid "9f7710ce-3909-425f-90f5-66944bb4c60f")
 	)
 	(wire
 		(pts
-			(xy 125.73 100.33) (xy 125.73 104.14)
+			(xy 114.3 60.96) (xy 130.81 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f544e6f-8558-4757-96ea-f25a743b4f16")
-	)
-	(wire
-		(pts
-			(xy 105.41 67.31) (xy 104.14 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9581b997-5317-45fb-a7c0-ff4883eb54f4")
-	)
-	(wire
-		(pts
-			(xy 125.73 114.3) (xy 125.73 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9688c25a-46e3-489b-940f-003d5f634d77")
-	)
-	(wire
-		(pts
-			(xy 81.28 36.83) (xy 109.22 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a27e5a72-4761-4ac7-b9c2-bc1f1b3c8f84")
-	)
-	(wire
-		(pts
-			(xy 214.63 29.21) (xy 214.63 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abca645a-a92b-4b67-884c-c435dec3be06")
+		(uuid "abd19cf2-9011-4182-8d88-187ab9a84fcc")
 	)
 	(wire
 		(pts
@@ -2824,7 +1028,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 144.78) (xy 77.47 144.78)
+			(xy 53.34 113.03) (xy 76.2 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2834,13 +1038,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 109.22) (xy 76.2 109.22)
+			(xy 81.28 39.37) (xy 109.22 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b988334b-e23e-4b9f-a8c4-da91111cd1bd")
+		(uuid "bfa70384-473c-46a8-9eab-3e014225554c")
 	)
 	(wire
 		(pts
@@ -2854,7 +1058,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 77.47 142.24)
+			(xy 53.34 110.49) (xy 76.2 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2864,258 +1068,176 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 144.78) (xy 132.08 144.78)
+			(xy 130.81 87.63) (xy 115.57 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e04ba07f-eb22-40f2-8530-6808abaf61d5")
+		(uuid "d02246d8-2ff1-4f5a-8940-ad23760b739a")
 	)
 	(wire
 		(pts
-			(xy 125.73 114.3) (xy 133.35 114.3)
+			(xy 123.19 82.55) (xy 123.19 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e05a5d65-3b13-4a7f-ba7e-f8ca98a0f950")
+		(uuid "d6cfb3dc-6c62-4b6e-b41a-cda3e10c5345")
 	)
 	(wire
 		(pts
-			(xy 115.57 142.24) (xy 132.08 142.24)
+			(xy 81.28 110.49) (xy 110.49 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efd15feb-94ec-46cd-8480-30fd6a85dc3a")
+		(uuid "e20b72aa-370a-45fe-8457-ea1110cece2b")
 	)
 	(wire
 		(pts
-			(xy 92.71 67.31) (xy 96.52 67.31)
+			(xy 130.81 85.09) (xy 115.57 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5e5754b-7ae4-4bc9-9700-30357ca5fc35")
+		(uuid "e4a59523-15ae-403d-884c-f6bbc64df7eb")
 	)
 	(wire
 		(pts
-			(xy 115.57 106.68) (xy 133.35 106.68)
+			(xy 123.19 58.42) (xy 123.19 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f76a2104-8972-4933-8c56-3920dfe6e9b1")
+		(uuid "e7a6b933-0b5f-4077-9197-dd1095616946")
 	)
-	(label "USB_INFRA_D-"
-		(at 86.36 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 81.28 60.96) (xy 109.22 60.96)
 		)
-		(uuid "3a5e3d30-a9c6-4b8f-9386-4178365df791")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8170cc4-3b4d-4080-b21f-75c2148e7d43")
 	)
-	(label "USB_PROBE_D+"
-		(at 88.9 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 81.28 85.09) (xy 110.49 85.09)
 		)
-		(uuid "5e541603-532c-4a86-a79b-9abec5078662")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c417af-c4c4-4b07-9e2c-6c340f34f0b4")
 	)
-	(label "USB_PROBE_D-"
-		(at 88.9 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 130.81 82.55)
 		)
-		(uuid "8071fb11-26fd-48ce-9215-d8348d1aea78")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb850fa9-de66-4bfe-98eb-7a2616c539f7")
 	)
 	(label "USB_DUT_D-"
-		(at 91.44 106.68 0)
+		(at 91.44 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ac3710f1-8512-4a95-b2a7-c9695a369682")
+		(uuid "2bef3d2b-a429-4d34-81b8-3002dc8913c9")
 	)
-	(label "USB_INFRA_D+"
-		(at 86.36 39.37 0)
+	(label "USB_PROBE_D-"
+		(at 87.63 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "cb71a230-ad87-4595-b929-102a5c895406")
+		(uuid "43e03ac2-bf9e-4d80-8489-24b65d530344")
+	)
+	(label "USB_PROBE_D+"
+		(at 87.63 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6222040a-7080-4277-b898-5371289226f6")
 	)
 	(label "USB_DUT_D+"
-		(at 91.44 109.22 0)
+		(at 91.44 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d14853b4-f945-43fb-91d8-e0498b3d6157")
+		(uuid "6a3ee297-a5dc-4c99-be3f-09d29d5a1ae6")
 	)
-	(global_label "RP2_INFRA_PWR_EN"
-		(shape output)
-		(at 97.79 52.07 0)
-		(fields_autoplaced yes)
+	(label "USB_DUT_D-"
+		(at 91.44 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "0de9db1e-953f-469e-84ce-77d31a242dc6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.376 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "94a82609-58c4-4963-9a35-f9ed81161ce4")
 	)
-	(global_label "_USB_PROBE_D-"
-		(shape output)
-		(at 132.08 142.24 0)
-		(fields_autoplaced yes)
+	(label "USB_INFRA_D+"
+		(at 86.36 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "2819823e-e9d0-4411-83a3-78a60883a454")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.9164 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "a79e3f26-9868-4b11-810d-91f9a5c9832e")
 	)
-	(global_label "_USB_PROBE_D+"
-		(shape output)
-		(at 132.08 144.78 0)
-		(fields_autoplaced yes)
+	(label "USB_INFRA_D-"
+		(at 86.36 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "4756ee0b-d218-4597-940c-7cd18c811f04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.9164 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "c62c2657-38df-4ffd-96d9-b5d8791364d2")
 	)
-	(global_label "_USB_INFRA_D+"
-		(shape output)
-		(at 130.81 39.37 0)
-		(fields_autoplaced yes)
+	(label "USB_DUT_D+"
+		(at 91.44 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "a7049bd2-1311-49e7-9092-6165ec7fa89b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7394 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RP2_INFRA_BOOT"
-		(shape output)
-		(at 99.06 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b1f411cc-e764-4578-8fd1-1112182a06b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1061 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "_USB_INFRA_D-"
-		(shape output)
-		(at 130.81 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9ef9af3-b359-471e-b5cd-7271bc09c3b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7394 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "d22778d2-ab8e-40f4-8f24-305be4888a4c")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 29.21 0)
+		(at 158.75 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13c9658f-d0ac-4717-9e57-7f5239592df6")
-		(property "Reference" "#PWR0202"
-			(at 247.65 35.56 0)
+		(uuid "07a21abe-89e2-494b-98c8-c59ccbcd9901")
+		(property "Reference" "#PWR0220"
+			(at 158.75 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,7 +1246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 34.29 0)
+			(at 158.75 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +1254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 29.21 0)
+			(at 158.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +1263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 29.21 0)
+			(at 158.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +1272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 29.21 0)
+			(at 158.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,29 +1281,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a65d24e-5b0e-4668-af94-4377da499269")
+			(uuid "19f57144-dd81-431d-a03e-bdea98224aac")
 		)
 		(instances
-			(project ""
+			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "#PWR0202")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 223.52 26.67 0)
+		(lib_id "power:GND")
+		(at 132.08 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1ad276b2-0e3d-4954-a0de-53e127802539")
-		(property "Reference" "#PWR0203"
-			(at 223.52 30.48 0)
+		(uuid "0ab59fa9-df18-4ce6-aa65-3d4e14cb91d4")
+		(property "Reference" "#PWR0218"
+			(at 132.08 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,8 +1311,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 223.52 21.59 0)
+		(property "Value" "GND"
+			(at 132.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +1320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 26.67 0)
+			(at 132.08 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +1329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 26.67 0)
+			(at 132.08 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,8 +1337,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 26.67 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,12 +1347,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b899cd6-adb3-48d0-9f86-c2a4181c17c5")
+			(uuid "f708ff3f-a3e4-4934-8f4e-e98d946e7f0e")
 		)
 		(instances
 			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "#PWR0203")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -3238,16 +1360,17 @@
 	)
 	(symbol
 		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
-		(at 78.74 109.22 0)
+		(at 78.74 87.63 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1b52e433-0f1e-425b-b41c-ce73cb66812e")
 		(property "Reference" "NT105"
-			(at 78.74 112.268 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +1378,7 @@
 			)
 		)
 		(property "Value" "octoprobe_NetTie_USB_Differential"
-			(at 78.74 111.76 0)
+			(at 78.74 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +1387,7 @@
 			)
 		)
 		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
-			(at 73.66 101.6 0)
+			(at 73.66 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +1396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 109.22 0)
+			(at 78.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +1405,7 @@
 			)
 		)
 		(property "Description" "Net tie, 4 pins"
-			(at 85.09 96.52 0)
+			(at 85.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,795 +1435,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 138.43 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24a36d35-3b37-403d-b8cf-d483183719ee")
-		(property "Reference" "J202"
-			(at 140.97 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x5"
-			(at 140.97 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "00_project_library:PinSocket_1x5_P2.54mm_Vertical_squarepad_USB"
-			(at 138.43 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9e93f471-f220-417b-aa57-597a0824d484")
-		)
-		(pin "5"
-			(uuid "4c31c5a6-855a-4d00-afec-1e278ffa27a8")
-		)
-		(pin "1"
-			(uuid "79f8765f-a40a-486e-a828-21c7e5ddee72")
-		)
-		(pin "4"
-			(uuid "3e42b79d-040a-4b29-a7d1-d37ff4982136")
-		)
-		(pin "3"
-			(uuid "b3b846bc-05cd-4b1d-ab85-41068a61a4a6")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "J202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
-		(at 113.03 142.24 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "29cf6224-3487-4c23-8f09-780bac344394")
-		(property "Reference" "NT102"
-			(at 113.03 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "octoprobe_NetTie_USB_Differential"
-			(at 113.03 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
-			(at 118.11 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 4 pins"
-			(at 106.68 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c2ef1c08-b82c-4ef6-b815-8efc94a6fa5a")
-		)
-		(pin "4"
-			(uuid "24c146c0-a38b-4a42-a512-dbe24cb05a18")
-		)
-		(pin "2"
-			(uuid "c754d834-844f-464a-af7e-70334dfbbe76")
-		)
-		(pin "1"
-			(uuid "2d68111e-1fb4-4ff3-bf41-f4e4dfac1dde")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "NT102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00_project_library:+5Vdut")
-		(at 125.73 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c8ee30c-8c7d-4dd4-ac56-ee071d41d81f")
-		(property "Reference" "#PWR0234"
-			(at 125.73 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5Vdut"
-			(at 125.73 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3dut\""
-			(at 125.73 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39d1f7b2-86ca-4791-9926-399629715965")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "#PWR0234")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch_MountingPin")
-		(at 207.01 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bc03a85-9688-4dc0-96e6-5c5f15195dd6")
-		(property "Reference" "J203"
-			(at 207.01 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack_Switch"
-			(at 207.01 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_project_library:BarrelJack_D5.5mm"
-			(at 208.28 30.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 30.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack with an internal switch and a mounting pin"
-			(at 207.01 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C319095"
-			(at 207.01 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "757a831f-6c50-4a32-8828-f200d25dae37")
-		)
-		(pin "3"
-			(uuid "8ba67c41-df1b-4bd0-b89e-ad7874ca3fc1")
-		)
-		(pin "2"
-			(uuid "289a6269-c7dd-405c-a46d-bca16b4eeac8")
-		)
-		(pin "MP"
-			(uuid "c74504eb-dc64-4354-b7a2-066100e9238a")
-		)
-		(instances
-			(project ""
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "J203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00_project_library:USB231ARY")
-		(at 194.31 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5eba3374-4cf9-400e-ba70-d96a4b6633e8")
-		(property "Reference" "J104"
-			(at 204.216 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "USB231ARY"
-			(at 201.168 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "00_project_library:USB231ARY"
-			(at 218.44 210.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310231710_XUNPU-USB-226-BRW_C720524.pdf"
-			(at 218.44 310.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
-			(at 194.31 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "13.75"
-			(at 218.44 510.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "XUNPU"
-			(at 218.44 610.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "USB-226-BRW"
-			(at 218.44 710.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C720524"
-			(at 218.44 810.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
-			(at 194.31 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "20c5babb-a3e0-4b2e-977e-ed46c57e3d85")
-		)
-		(pin "MH"
-			(uuid "71603621-b7a0-4051-8620-571c49e4dd2a")
-		)
-		(pin "4"
-			(uuid "f24dbaaa-ddf1-4057-a679-2a4e872d984e")
-		)
-		(pin "1"
-			(uuid "27c063ee-6eeb-4b2b-9a03-fdb5335295b5")
-		)
-		(pin "2"
-			(uuid "fb5e1acf-407d-4b6c-9bd2-a0580a43cec3")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "J104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00_project_library:LED WHITE")
-		(at 109.22 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71bc8344-8c4f-4b8b-b40f-2ab0d0e2d8ba")
-		(property "Reference" "D101"
-			(at 107.6325 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "white"
-			(at 107.6325 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "00_project_library:LED_0603_1608Metric"
-			(at 109.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C2290"
-			(at 109.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Label" "LED_BOOT (white)"
-			(at 110.49 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e07b646f-07fd-43e7-9cdd-8f546f77eb68")
-		)
-		(pin "2"
-			(uuid "04ceeadb-6c94-4acd-8148-4ed1feec0460")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "D101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
-		(at 80.01 144.78 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "74492d1f-903f-430a-9a43-0baee3712083")
-		(property "Reference" "NT101"
-			(at 80.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "octoprobe_NetTie_USB_Differential"
-			(at 80.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
-			(at 74.93 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 4 pins"
-			(at 86.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "afe37828-a295-4c69-bca0-7fd5571e64a3")
-		)
-		(pin "4"
-			(uuid "45958d88-1f9d-4fc6-b6f7-544718e6387d")
-		)
-		(pin "2"
-			(uuid "2e582edb-9912-4c11-b4e4-0bd6d07bc25e")
-		)
-		(pin "1"
-			(uuid "2095494e-b12f-4187-bf34-a3844b9554f4")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "NT101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 27.94 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77a37e3c-20f4-494a-b15f-77548254d224")
-		(property "Reference" "H203"
-			(at 30.48 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 30.48 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "00_project_library:octohub4_mounting_hole"
-			(at 27.94 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 27.94 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b28317e-a476-4a8f-8354-adcf9f638181")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "H203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00_project_library:USB231ARY")
-		(at 193.04 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85318c48-6970-4ed1-85f5-1b825f027e37")
-		(property "Reference" "J103"
-			(at 202.946 84.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "USB231ARY"
-			(at 199.898 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "00_project_library:USB231ARY"
-			(at 217.17 187.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310231710_XUNPU-USB-226-BRW_C720524.pdf"
-			(at 217.17 287.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "13.75"
-			(at 217.17 487.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "XUNPU"
-			(at 217.17 587.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "USB-226-BRW"
-			(at 217.17 687.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C720524"
-			(at 217.17 787.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fc3dccf3-299d-4a0a-8f3b-80a97ea87445")
-		)
-		(pin "MH"
-			(uuid "07c88b67-28c6-46eb-8d14-0c17b589dd15")
-		)
-		(pin "4"
-			(uuid "aa642b3a-db72-4958-b673-f19291fad85c")
-		)
-		(pin "1"
-			(uuid "02a110de-688a-4e5e-b701-a4a48e4a5f5d")
-		)
-		(pin "2"
-			(uuid "b1fb11e5-2e1c-43ad-acf3-9a2ce597dd65")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "J103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
 		(at 111.76 36.83 0)
 		(mirror y)
@@ -4109,9 +1443,10 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "93fd957c-75f6-4549-8c43-0fc8ba8fcd8a")
-		(property "Reference" "NT104"
-			(at 111.76 41.91 0)
+		(fields_autoplaced yes)
+		(uuid "29cf6224-3487-4c23-8f09-780bac344394")
+		(property "Reference" "NT102"
+			(at 111.76 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,6 +1490,624 @@
 			)
 		)
 		(pin "3"
+			(uuid "c2ef1c08-b82c-4ef6-b815-8efc94a6fa5a")
+		)
+		(pin "4"
+			(uuid "24c146c0-a38b-4a42-a512-dbe24cb05a18")
+		)
+		(pin "2"
+			(uuid "c754d834-844f-464a-af7e-70334dfbbe76")
+		)
+		(pin "1"
+			(uuid "2d68111e-1fb4-4ff3-bf41-f4e4dfac1dde")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "NT102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:HUB+5V")
+		(at 123.19 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37672890-9b80-43a3-8c85-689b6a7bc302")
+		(property "Reference" "#PWR0215"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VOUT"
+			(at 123.1899 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b336c5e7-7be2-473f-9efe-09712de5195e")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:USB231ARY")
+		(at 132.08 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5eba3374-4cf9-400e-ba70-d96a4b6633e8")
+		(property "Reference" "J104"
+			(at 141.986 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "USB231ARY"
+			(at 138.938 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "00_project_library:USB231ARY"
+			(at 156.21 202.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310231710_XUNPU-USB-226-BRW_C720524.pdf"
+			(at 156.21 302.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.75"
+			(at 156.21 502.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "XUNPU"
+			(at 156.21 602.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB-226-BRW"
+			(at 156.21 702.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C720524"
+			(at 156.21 802.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "20c5babb-a3e0-4b2e-977e-ed46c57e3d85")
+		)
+		(pin "MH"
+			(uuid "71603621-b7a0-4051-8620-571c49e4dd2a")
+		)
+		(pin "4"
+			(uuid "f24dbaaa-ddf1-4057-a679-2a4e872d984e")
+		)
+		(pin "1"
+			(uuid "27c063ee-6eeb-4b2b-9a03-fdb5335295b5")
+		)
+		(pin "2"
+			(uuid "fb5e1acf-407d-4b6c-9bd2-a0580a43cec3")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "J104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ac999b-988a-4a71-bb9b-49300e4e1db8")
+		(property "Reference" "#PWR0216"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58af3c62-91b7-4437-ba45-98074827d434")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
+		(at 78.74 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74492d1f-903f-430a-9a43-0baee3712083")
+		(property "Reference" "NT101"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "octoprobe_NetTie_USB_Differential"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
+			(at 73.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 4 pins"
+			(at 85.09 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "afe37828-a295-4c69-bca0-7fd5571e64a3")
+		)
+		(pin "4"
+			(uuid "45958d88-1f9d-4fc6-b6f7-544718e6387d")
+		)
+		(pin "2"
+			(uuid "2e582edb-9912-4c11-b4e4-0bd6d07bc25e")
+		)
+		(pin "1"
+			(uuid "2095494e-b12f-4187-bf34-a3844b9554f4")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "NT101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
+		(at 113.03 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d8cae2f-93d6-4563-9845-12411df74614")
+		(property "Reference" "NT108"
+			(at 113.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "octoprobe_NetTie_USB_Differential"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 4 pins"
+			(at 106.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e6f8ce99-d9d0-4829-83c9-3cd5c7f53b6f")
+		)
+		(pin "4"
+			(uuid "344afffe-85de-4716-bdb8-73bbf2cdf1f2")
+		)
+		(pin "2"
+			(uuid "91f858b1-4429-4bb3-b89b-54fafbeb6b8e")
+		)
+		(pin "1"
+			(uuid "c5dc0e77-bf6d-46ad-8181-f6a49bd57d8a")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "NT108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:USB231ARY")
+		(at 130.81 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85318c48-6970-4ed1-85f5-1b825f027e37")
+		(property "Reference" "J103"
+			(at 140.716 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "USB231ARY"
+			(at 137.668 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "00_project_library:USB231ARY"
+			(at 154.94 177.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310231710_XUNPU-USB-226-BRW_C720524.pdf"
+			(at 154.94 277.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
+			(at 130.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.75"
+			(at 154.94 477.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "XUNPU"
+			(at 154.94 577.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB-226-BRW"
+			(at 154.94 677.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C720524"
+			(at 154.94 777.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
+			(at 130.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fc3dccf3-299d-4a0a-8f3b-80a97ea87445")
+		)
+		(pin "MH"
+			(uuid "07c88b67-28c6-46eb-8d14-0c17b589dd15")
+		)
+		(pin "4"
+			(uuid "aa642b3a-db72-4958-b673-f19291fad85c")
+		)
+		(pin "1"
+			(uuid "02a110de-688a-4e5e-b701-a4a48e4a5f5d")
+		)
+		(pin "2"
+			(uuid "b1fb11e5-2e1c-43ad-acf3-9a2ce597dd65")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
+		(at 111.76 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93fd957c-75f6-4549-8c43-0fc8ba8fcd8a")
+		(property "Reference" "NT104"
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "octoprobe_NetTie_USB_Differential"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
+			(at 116.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 4 pins"
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
 			(uuid "eb765584-b7a4-4db6-bde9-f11c24d63de6")
 		)
 		(pin "4"
@@ -4176,17 +2129,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 247.65 26.67 0)
+		(lib_id "power:GND")
+		(at 130.81 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9cc9f641-d591-4187-acfd-dd3835436e94")
-		(property "Reference" "#PWR0201"
-			(at 247.65 30.48 0)
+		(uuid "a9e271f8-b563-47e8-a651-c7667e989445")
+		(property "Reference" "#PWR0217"
+			(at 130.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,8 +2147,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 247.65 21.59 0)
+		(property "Value" "GND"
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +2156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 26.67 0)
+			(at 130.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +2165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 26.67 0)
+			(at 130.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,8 +2173,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 247.65 26.67 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,47 +2183,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "60d0e216-e918-46bb-aa5d-7acef7bc4617")
+			(uuid "186e6385-50b6-485c-a49c-fc3205808690")
 		)
 		(instances
-			(project ""
+			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "#PWR0201")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 252.73 26.67 0)
+		(lib_id "power:GND")
+		(at 158.75 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9f704c79-01d6-45d8-aec0-866a9c7f0403")
-		(property "Reference" "J201"
-			(at 255.27 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 255.27 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "00_project_library:KF235-2P"
-			(at 252.73 26.67 0)
+		(uuid "b1c2421a-2fad-40d9-a1a7-be6a445baa8b")
+		(property "Reference" "#PWR0219"
+			(at 158.75 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,67 +2213,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 252.73 26.67 0)
+		(property "Value" "GND"
+			(at 158.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 252.73 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b076791-68f3-4113-a505-9009601e349e")
-		)
-		(pin "2"
-			(uuid "009e57dc-a658-4fd9-8acc-a3dbe38a635c")
-		)
-		(instances
-			(project ""
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "J201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00_project_library:HUB+5V")
-		(at 116.84 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aefd73b2-667c-4ce3-9705-257141476764")
-		(property "Reference" "#PWR0101"
-			(at 113.03 67.31 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "HUB+5V"
-			(at 122.936 67.31 90)
-			(effects
-				(font
-					(size 0.8 0.8)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 67.31 0)
+			(at 158.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +2231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 67.31 0)
+			(at 158.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,8 +2239,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 116.84 67.31 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,47 +2249,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9edbb2d-c3ad-4f9a-b794-2e4f82c5909e")
+			(uuid "7d68a2b1-6f1e-4bc9-a8e8-c5b5898a326d")
 		)
 		(instances
 			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "#PWR0101")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 52.07 176.53 0)
+		(lib_id "power:GND")
+		(at 160.02 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6088d30-ee9b-493d-9b60-ddd9a0ab0205")
-		(property "Reference" "H204"
-			(at 54.61 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 54.61 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "00_project_library:octohub4_mounting_hole"
-			(at 52.07 176.53 0)
+		(uuid "b9b2aa6b-557d-4055-8c2f-e2a355cd86fd")
+		(property "Reference" "#PWR0222"
+			(at 160.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,8 +2279,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 52.07 176.53 0)
+		(property "Value" "GND"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,8 +2296,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 52.07 176.53 0)
+		(property "Datasheet" ""
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,12 +2315,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f761558-97ff-4289-b3e8-31960768f923")
+			(uuid "d26c0ab5-078b-4383-8abe-ddcd21884246")
 		)
 		(instances
 			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "H204")
+					(reference "#PWR0222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2237593-d363-4a08-b2ff-c84358ea0fd0")
+		(property "Reference" "#PWR0221"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe0d75b2-0d65-4649-832e-db7de1365113")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -4445,7 +2394,7 @@
 	)
 	(symbol
 		(lib_id "00_project_library:USB231ARY")
-		(at 191.77 48.26 0)
+		(at 130.81 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4453,7 +2402,7 @@
 		(dnp no)
 		(uuid "cb0147d2-93e2-4460-9975-6fef01ece6f4")
 		(property "Reference" "J101"
-			(at 201.676 40.132 0)
+			(at 140.716 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +2411,7 @@
 			)
 		)
 		(property "Value" "USB231ARY"
-			(at 198.628 43.18 0)
+			(at 137.668 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +2420,7 @@
 			)
 		)
 		(property "Footprint" "00_project_library:USB231ARY"
-			(at 215.9 143.18 0)
+			(at 154.94 129.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +2430,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310231710_XUNPU-USB-226-BRW_C720524.pdf"
-			(at 215.9 243.18 0)
+			(at 154.94 229.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +2440,7 @@
 			)
 		)
 		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
-			(at 191.77 48.26 0)
+			(at 130.81 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +2449,7 @@
 			)
 		)
 		(property "Height" "13.75"
-			(at 215.9 443.18 0)
+			(at 154.94 429.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,7 +2459,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "XUNPU"
-			(at 215.9 543.18 0)
+			(at 154.94 529.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +2469,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "USB-226-BRW"
-			(at 215.9 643.18 0)
+			(at 154.94 629.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +2479,7 @@
 			)
 		)
 		(property "JLC" "C720524"
-			(at 215.9 743.18 0)
+			(at 154.94 729.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +2489,7 @@
 			)
 		)
 		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
-			(at 191.77 48.26 0)
+			(at 130.81 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,148 +2522,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 125.73 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3411e52-fd30-4fad-b820-03cbccf3b2ac")
-		(property "Reference" "#PWR0104"
-			(at 125.73 123.19 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.603 120.4722 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd7fbb82-b871-4249-a8f7-074341466688")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5184b78-4754-42d7-b804-7328bff12169")
-		(property "Reference" "#PWR0204"
-			(at 223.52 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60a61b71-8b89-4534-b374-d6e2506607ba")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
-		(at 113.03 106.68 0)
-		(mirror y)
+		(at 78.74 113.03 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "d59c4267-0d9a-440d-916b-b6b2602f5bf5")
-		(property "Reference" "NT106"
-			(at 112.776 111.506 0)
+		(fields_autoplaced yes)
+		(uuid "d3717c68-218d-429c-8b30-9dcb95f9cc95")
+		(property "Reference" "NT107"
+			(at 78.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,7 +2541,7 @@
 			)
 		)
 		(property "Value" "octoprobe_NetTie_USB_Differential"
-			(at 113.03 111.76 0)
+			(at 78.74 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +2550,7 @@
 			)
 		)
 		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
-			(at 118.11 114.3 0)
+			(at 73.66 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +2559,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 106.68 0)
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +2568,83 @@
 			)
 		)
 		(property "Description" "Net tie, 4 pins"
-			(at 106.68 119.38 0)
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "263750b5-e773-4845-93e1-b77fa1adcf53")
+		)
+		(pin "4"
+			(uuid "55347512-a569-46e9-b40c-b46e8461cc8e")
+		)
+		(pin "2"
+			(uuid "2b8495b5-5e20-4426-853c-15ac474567bc")
+		)
+		(pin "1"
+			(uuid "97ab85b0-6f90-4a10-8f21-18cfa363ac1c")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "NT107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
+		(at 113.03 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d59c4267-0d9a-440d-916b-b6b2602f5bf5")
+		(property "Reference" "NT106"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "octoprobe_NetTie_USB_Differential"
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
+			(at 118.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 4 pins"
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,73 +2668,6 @@
 			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
 					(reference "NT106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 52.07 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6fc09fe-ec1b-4465-b489-08eb707d6bf0")
-		(property "Reference" "H202"
-			(at 54.61 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 54.61 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "00_project_library:octohub4_mounting_hole"
-			(at 52.07 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 52.07 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f431ea84-5b1b-4cda-8014-265576bfc14d")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "H202")
 					(unit 1)
 				)
 			)
@@ -4910,178 +2738,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 100.33 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db368026-5a22-4eb2-8fd5-48704e1f6ee0")
-		(property "Reference" "R101"
-			(at 100.33 69.342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 100.33 67.4116 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 100.33 65.532 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef339f3d-d04a-4efe-a1f1-28c5e6d46c96")
-		)
-		(pin "2"
-			(uuid "31ad25bd-d690-4e70-8414-bca992985d89")
-		)
-		(instances
-			(project "pcb_octohub4"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "R101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00_project_library:TPS259474LRPWR")
-		(at 238.76 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0d932b9-ea94-45e8-82be-7cc973dd057e")
-		(property "Reference" "U201"
-			(at 257.81 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TPS259474LRPWR"
-			(at 257.81 111.76 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "00_project_library:TPS259474LRPWR"
-			(at 238.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps25947"
-			(at 238.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2864845"
-			(at 238.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0c5f41d9-73ae-443d-aa09-1d5ac7944371")
-		)
-		(pin "5"
-			(uuid "61045a23-f352-4ddf-a70d-e6bf1e140b4c")
-		)
-		(pin "9"
-			(uuid "813bd4da-3b0f-4c90-900b-d449d95ebcf9")
-		)
-		(pin "7"
-			(uuid "9fe5fac5-e2d0-43e3-93c6-8ce7050577c4")
-		)
-		(pin "1"
-			(uuid "ccadeb85-203d-4c19-91ce-b0fda53db1bb")
-		)
-		(pin "10"
-			(uuid "8f9146b0-5f80-4028-9da6-9f204127c7e0")
-		)
-		(pin "6"
-			(uuid "2a5afd9d-8bab-4919-8b6a-d2e2dd110901")
-		)
-		(pin "2"
-			(uuid "f89ae58a-01fa-4cb2-84b9-13a55b14e9e9")
-		)
-		(pin "4"
-			(uuid "6a3efcc4-2a63-4b6f-9f50-9e01a7a7a34d")
-		)
-		(pin "8"
-			(uuid "f8ca1622-0843-45f8-a4c5-54bb006ca132")
-		)
-		(instances
-			(project ""
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "U201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00_project_library:USB231ARY")
-		(at 191.77 71.12 0)
+		(at 130.81 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5089,7 +2747,7 @@
 		(dnp no)
 		(uuid "e80a5ae0-7068-40c6-b02e-ae2f448134ce")
 		(property "Reference" "J102"
-			(at 201.676 62.992 0)
+			(at 140.716 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +2756,7 @@
 			)
 		)
 		(property "Value" "USB231ARY"
-			(at 198.628 66.04 0)
+			(at 137.668 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +2765,7 @@
 			)
 		)
 		(property "Footprint" "00_project_library:USB231ARY"
-			(at 215.9 166.04 0)
+			(at 154.94 153.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +2775,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310231710_XUNPU-USB-226-BRW_C720524.pdf"
-			(at 215.9 266.04 0)
+			(at 154.94 253.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +2785,7 @@
 			)
 		)
 		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
-			(at 191.77 71.12 0)
+			(at 130.81 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +2794,7 @@
 			)
 		)
 		(property "Height" "13.75"
-			(at 215.9 466.04 0)
+			(at 154.94 453.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +2804,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "XUNPU"
-			(at 215.9 566.04 0)
+			(at 154.94 553.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,7 +2814,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "USB-226-BRW"
-			(at 215.9 666.04 0)
+			(at 154.94 653.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +2824,7 @@
 			)
 		)
 		(property "JLC" "C720524"
-			(at 215.9 766.04 0)
+			(at 154.94 753.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +2834,7 @@
 			)
 		)
 		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
-			(at 191.77 71.12 0)
+			(at 130.81 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,16 +2868,17 @@
 	)
 	(symbol
 		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
-		(at 78.74 39.37 0)
+		(at 78.74 63.5 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f359c97f-045b-479c-8867-eaaf46c29a80")
 		(property "Reference" "NT103"
-			(at 78.74 41.91 0)
+			(at 78.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +2886,7 @@
 			)
 		)
 		(property "Value" "octoprobe_NetTie_USB_Differential"
-			(at 78.74 41.91 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
-			(at 73.66 31.75 0)
+			(at 73.66 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +2904,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 39.37 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +2913,7 @@
 			)
 		)
 		(property "Description" "Net tie, 4 pins"
-			(at 85.09 26.67 0)
+			(at 85.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,35 +2943,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 27.94 168.91 0)
+		(lib_id "power:GND")
+		(at 130.81 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f66d2a01-6b04-45ac-9dae-267a94e6365a")
-		(property "Reference" "H201"
-			(at 30.48 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 30.48 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "00_project_library:octohub4_mounting_hole"
-			(at 27.94 168.91 0)
+		(uuid "f5fb4c80-2404-46c9-8523-4d2f29632b71")
+		(property "Reference" "#PWR0204"
+			(at 130.81 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,8 +2961,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 27.94 168.91 0)
+		(property "Value" "GND"
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,8 +2978,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 27.94 168.91 0)
+		(property "Datasheet" ""
+			(at 130.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,20 +2997,62 @@
 			)
 		)
 		(pin "1"
-			(uuid "32cd9f9d-11e2-4376-b4ef-71be4c136ae0")
+			(uuid "4b106a04-0c29-466d-aa99-8b49a5c6328f")
 		)
 		(instances
-			(project ""
+			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "H201")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
+		(at 17.78 142.24)
+		(size 38.1 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "88bb2a03-9a6b-4098-9ac0-ade288ccde3d")
+		(property "Sheetname" "Power Protection"
+			(at 17.78 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb_octohub4_usbhubchip_power_protection.kicad_sch"
+			(at 17.78 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 22.86 30.48)
-		(size 30.48 119.38)
+		(size 30.48 93.98)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5376,7 +3076,7 @@
 			)
 		)
 		(property "Sheetfile" "pcb_octohub4_usbhubchip.kicad_sch"
-			(at 22.86 150.4446 0)
+			(at 22.86 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +3105,7 @@
 			)
 		)
 		(pin "PRT_PWR1" output
-			(at 53.34 52.07 0)
+			(at 53.34 44.45 0)
 			(uuid "c687b69c-a1a5-442f-868e-520fd46c684d")
 			(effects
 				(font
@@ -5415,7 +3115,7 @@
 			)
 		)
 		(pin "PRT_PWR2" output
-			(at 53.34 77.47 0)
+			(at 53.34 68.58 0)
 			(uuid "57a3e152-025a-47f0-9690-9b79bbc17a2e")
 			(effects
 				(font
@@ -5425,7 +3125,7 @@
 			)
 		)
 		(pin "USB_DM2" output
-			(at 53.34 64.77 0)
+			(at 53.34 60.96 0)
 			(uuid "582cc42f-75ea-4021-b3a1-d9972ad7e76a")
 			(effects
 				(font
@@ -5435,7 +3135,7 @@
 			)
 		)
 		(pin "USB_DP2" output
-			(at 53.34 67.31 0)
+			(at 53.34 63.5 0)
 			(uuid "224bed65-841b-434f-9650-410595ad8177")
 			(effects
 				(font
@@ -5445,7 +3145,7 @@
 			)
 		)
 		(pin "USB_DP3" output
-			(at 53.34 109.22 0)
+			(at 53.34 87.63 0)
 			(uuid "f58e2a03-603c-481f-9022-e991bcc33d0e")
 			(effects
 				(font
@@ -5455,7 +3155,7 @@
 			)
 		)
 		(pin "USB_DM3" output
-			(at 53.34 106.68 0)
+			(at 53.34 85.09 0)
 			(uuid "b9c502b4-b8ca-4b97-9865-acc780209599")
 			(effects
 				(font
@@ -5465,7 +3165,7 @@
 			)
 		)
 		(pin "USB_DP4" output
-			(at 53.34 144.78 0)
+			(at 53.34 113.03 0)
 			(uuid "10d9a4fe-8fe3-41c3-88fd-8d75d2e88cd6")
 			(effects
 				(font
@@ -5475,7 +3175,7 @@
 			)
 		)
 		(pin "PRT_PWR4" output
-			(at 53.34 147.32 0)
+			(at 53.34 118.11 0)
 			(uuid "3ae92a08-63d7-49af-9022-e573766b79d5")
 			(effects
 				(font
@@ -5485,7 +3185,7 @@
 			)
 		)
 		(pin "PRT_PWR3" output
-			(at 53.34 111.76 0)
+			(at 53.34 92.71 0)
 			(uuid "cad0b8a7-ab3f-4d1e-a0e2-6837341c9529")
 			(effects
 				(font
@@ -5495,7 +3195,7 @@
 			)
 		)
 		(pin "USB_DM4" output
-			(at 53.34 142.24 0)
+			(at 53.34 110.49 0)
 			(uuid "8ec61f3e-d56b-47dc-99ee-140502a12090")
 			(effects
 				(font
@@ -5507,7 +3207,7 @@
 		(instances
 			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(page "3")
+					(page "2")
 				)
 			)
 		)

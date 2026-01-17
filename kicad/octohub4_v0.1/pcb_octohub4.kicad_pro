@@ -525,7 +525,7 @@
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "3V3",
@@ -538,6 +538,23 @@
         "wire_width": 12
       },
       {
+        "bus_width": 16,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "5V IN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.5,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 16
+      },
+      {
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
@@ -545,7 +562,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "5V",
+        "name": "5V OUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
@@ -579,23 +596,6 @@
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 12
-      },
-      {
-        "bus_width": 16,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HUB5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.5,
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 16
       },
       {
         "bus_width": 12,
@@ -667,16 +667,16 @@
         "pattern": "+3V3"
       },
       {
-        "netclass": "5V",
-        "pattern": "+5V"
+        "netclass": "5V OUT",
+        "pattern": "+5VOUT"
       },
       {
         "netclass": "GND",
         "pattern": "GND"
       },
       {
-        "netclass": "HUB5V",
-        "pattern": "HUB+5V"
+        "netclass": "5V IN",
+        "pattern": "+5VIN"
       },
       {
         "netclass": "UsbDifferential",
@@ -820,6 +820,10 @@
     [
       "35c47459-45a7-4753-acae-c8b47e7575e1",
       "Root"
+    ],
+    [
+      "88bb2a03-9a6b-4098-9ac0-ade288ccde3d",
+      "Power Protection"
     ],
     [
       "cff48fa5-514e-40a1-9e85-b0c2e53fd5a3",
