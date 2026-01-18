@@ -5,6 +5,256 @@
 	(uuid "5ca25a48-b38c-4e94-827a-ff3556c8e02d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "00_project_library:+5VIN"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VIN"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VIN_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VIN_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "00_project_library:+5VPROTECTED"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "IN+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VPROTECTED_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VPROTECTED_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "00_project_library:C"
 			(pin_numbers
 				(hide yes)
@@ -144,8 +394,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "00_project_library:HUB+5V"
-			(power)
+		(symbol "00_project_library:JLCPCB_ToolingHole"
 			(pin_numbers
 				(hide yes)
 			)
@@ -154,9 +403,27 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "#PWR"
+			(property "Reference" "TH"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "JLCPCB Tooling Hole"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "00_project_library:JLCPCB_ToolingHole"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -165,16 +432,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "HUB+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://jlcpcb.com/help/article/47-How-to-add-tooling-holes-for-PCB-assembly-order"
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -182,8 +441,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Description" "https://www.youtube.com/watch?v=C7-8nUU6e3E"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -191,79 +450,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HUB+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
+			(symbol "JLCPCB_ToolingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
-						(width 0)
+						(width 1.27)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "HUB+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -1349,6 +1545,389 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -1439,131 +2018,6 @@
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1682,6 +2136,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "R201: Current limit ~4.47A (612 / 137 Ohm)\nC203: Allows transient surges (up to 2x limit) for ~6ms.\nC202: Output voltage ramp time to 5V/500ms"
 		(exclude_from_sim no)
@@ -1716,16 +2271,16 @@
 		(uuid "39ada5dc-5d73-49cb-8066-d59df33ddcd7")
 	)
 	(junction
-		(at 135.89 33.02)
+		(at 74.93 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ac22ca5-ec3f-4ba6-97a7-ceccde5f0578")
+		(uuid "45abaa76-f6dd-40ad-bbd9-39575f9d38b0")
 	)
 	(junction
 		(at 160.02 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4c7144ed-04cb-44bf-b62c-9af9fe9e6872")
+		(uuid "47329e4a-6e8e-443e-9023-55e225d43ddc")
 	)
 	(junction
 		(at 170.18 85.09)
@@ -1740,10 +2295,10 @@
 		(uuid "78ea632a-34b7-4d8e-86cb-dbbff1bacac2")
 	)
 	(junction
-		(at 74.93 85.09)
+		(at 146.05 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "847c4857-46e9-4bcc-8b73-d55f3f974947")
+		(uuid "84064e76-b913-427f-afd1-78cb2705d48e")
 	)
 	(junction
 		(at 69.85 55.88)
@@ -1752,16 +2307,28 @@
 		(uuid "8d766c6c-abb4-42f5-92fe-36ca0213fe6e")
 	)
 	(junction
-		(at 74.93 90.17)
+		(at 187.96 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e4f87d8-713c-41e8-84dc-c59e89bbea2f")
+		(uuid "8f56e7d1-9ec6-48a3-a167-244cab083527")
+	)
+	(junction
+		(at 107.95 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9081b05e-522d-47d3-962e-634db2a1c993")
 	)
 	(junction
 		(at 40.64 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9706a398-0c29-416d-ad32-05e9a454269d")
+	)
+	(junction
+		(at 135.89 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a899bfe4-4bfb-43d2-99d3-2b09a63216e2")
 	)
 	(junction
 		(at 29.21 48.26)
@@ -1776,10 +2343,24 @@
 		(uuid "cb577e87-468b-477e-b56c-da68c65b0aba")
 	)
 	(junction
+		(at 74.93 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc8a9a4d-59f8-4b3d-843a-45165e3d87f0")
+	)
+	(junction
 		(at 160.02 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f619ba5f-9710-4736-9459-181ad38ab76b")
+	)
+	(no_connect
+		(at 146.05 90.17)
+		(uuid "5644aabb-9aac-446f-8f10-3d5de35c596a")
+	)
+	(no_connect
+		(at 146.05 95.25)
+		(uuid "deb723f9-c806-4fb9-a74f-c200b83b0eab")
 	)
 	(wire
 		(pts
@@ -1843,33 +2424,33 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 33.02) (xy 160.02 33.02)
+			(xy 135.89 33.02) (xy 160.02 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29a0671b-cecb-4113-85f2-9e24f1a73bd6")
+		(uuid "2fb1253b-4f1e-4338-b384-009af51aa767")
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 107.95 90.17)
+			(xy 107.95 69.85) (xy 107.95 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "501c35de-bb18-4991-9b25-b5cd2add43f4")
+		(uuid "2fd818cb-f4a9-4cbe-a3b5-9faea4724704")
 	)
 	(wire
 		(pts
-			(xy 114.3 33.02) (xy 135.89 33.02)
+			(xy 74.93 85.09) (xy 107.95 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54c0d553-311e-4290-b64f-c32d0b77f679")
+		(uuid "439caf63-5dfd-4494-8932-705e52bbf59b")
 	)
 	(wire
 		(pts
@@ -1893,7 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 33.02) (xy 160.02 33.02)
+			(xy 114.3 33.02) (xy 135.89 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1943,6 +2524,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 85.09) (xy 74.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b4eacb-197e-4343-a75c-a1da9e55ebfa")
+	)
+	(wire
+		(pts
 			(xy 92.71 100.33) (xy 92.71 107.95)
 		)
 		(stroke
@@ -1963,13 +2554,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 74.93 85.09)
+			(xy 187.96 33.02) (xy 195.58 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "829a1af8-23bb-4b01-909a-dbbd29c9874b")
+		(uuid "8c09913f-d779-480a-b11d-0c5663058102")
+	)
+	(wire
+		(pts
+			(xy 160.02 33.02) (xy 187.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909cf361-e3cb-4bc9-b244-8b1dafa8655a")
 	)
 	(wire
 		(pts
@@ -1980,6 +2581,16 @@
 			(type default)
 		)
 		(uuid "9822f88d-0ce4-4a57-b085-aa7a2b73b396")
+	)
+	(wire
+		(pts
+			(xy 74.93 90.17) (xy 107.95 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a17db5c-df8e-4ca3-970d-b94e2aa9925d")
 	)
 	(wire
 		(pts
@@ -2010,6 +2621,16 @@
 			(type default)
 		)
 		(uuid "b10f69c7-6e1d-481a-85c1-673f6d51c004")
+	)
+	(wire
+		(pts
+			(xy 146.05 69.85) (xy 146.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2813dca-a570-491d-9d88-ba0d58d8be95")
 	)
 	(wire
 		(pts
@@ -2053,6 +2674,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 97.79) (xy 80.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85551ce-2440-46ed-be14-db20a150886d")
+	)
+	(wire
+		(pts
 			(xy 69.85 46.99) (xy 73.66 46.99)
 		)
 		(stroke
@@ -2060,6 +2691,16 @@
 			(type default)
 		)
 		(uuid "c8e7a002-eea0-4c33-b158-d04f4f6009ad")
+	)
+	(wire
+		(pts
+			(xy 128.27 69.85) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca721b93-db86-4618-81f3-1c56fbc1bf46")
 	)
 	(wire
 		(pts
@@ -2093,16 +2734,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 85.09) (xy 107.95 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de5e3b65-c585-4d97-8fbe-a81fd449e9c4")
-	)
-	(wire
-		(pts
 			(xy 29.21 45.72) (xy 29.21 48.26)
 		)
 		(stroke
@@ -2110,6 +2741,16 @@
 			(type default)
 		)
 		(uuid "e00ecfe3-2701-46b2-8909-e633d7e44d72")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08258a7-504d-4a1d-a5c4-ad5d85cb6e9f")
 	)
 	(wire
 		(pts
@@ -2278,7 +2919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "00_project_library:+5VIN")
 		(at 67.31 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2470,6 +3111,75 @@
 			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/88bb2a03-9a6b-4098-9ac0-ade288ccde3d"
 					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 124.46 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2712d016-7be7-4b4f-9d93-e4c2340a6757")
+		(property "Reference" "JP205"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 124.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 124.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "967a9c6f-238b-455f-8855-0a0e6ec826d2")
+		)
+		(pin "1"
+			(uuid "1a42c5db-6bd4-4552-9600-94837d012da8")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/88bb2a03-9a6b-4098-9ac0-ade288ccde3d"
+					(reference "JP205")
 					(unit 1)
 				)
 			)
@@ -2781,7 +3491,7 @@
 		(fields_autoplaced yes)
 		(uuid "77a37e3c-20f4-494a-b15f-77548254d224")
 		(property "Reference" "H203"
-			(at 137.16 50.7999 0)
+			(at 137.16 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,6 +3506,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "00_project_library:octohub4_mounting_hole"
@@ -2916,35 +3627,34 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:octoprobe_CableTieHole")
-		(at 29.21 76.2 0)
+		(lib_id "power:PWR_FLAG")
+		(at 170.18 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "982f3587-349e-4602-a0ad-91b2e68078b2")
-		(property "Reference" "H1301"
-			(at 31.75 74.9299 0)
+		(uuid "7ec92644-ce0c-495b-b282-f11c2b800cbd")
+		(property "Reference" "#FLG0201"
+			(at 170.18 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "octoprobe_CableTieHole"
-			(at 31.75 77.4699 0)
+		(property "Value" "PWR_FLAG"
+			(at 170.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "00_project_library:octoprobe_CableTieHole"
-			(at 29.21 76.2 0)
+		(property "Footprint" ""
+			(at 170.18 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +3663,200 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 76.2 0)
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5127fc6-0167-49eb-a000-39bcee2c13cf")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/88bb2a03-9a6b-4098-9ac0-ade288ccde3d"
+					(reference "#FLG0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:JLCPCB_ToolingHole")
+		(at 229.87 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "90e93046-eddd-4539-8d90-39653ca7d35f")
+		(property "Reference" "TH1302"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JLCPCB Tooling Hole"
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_project_library:JLCPCB_ToolingHole"
+			(at 229.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/help/article/47-How-to-add-tooling-holes-for-PCB-assembly-order"
+			(at 229.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://www.youtube.com/watch?v=C7-8nUU6e3E"
+			(at 229.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/88bb2a03-9a6b-4098-9ac0-ade288ccde3d"
+					(reference "TH1302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:JLCPCB_ToolingHole")
+		(at 229.87 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "964840b7-711d-40d0-b91b-d27b8d728238")
+		(property "Reference" "TH1301"
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JLCPCB Tooling Hole"
+			(at 233.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_project_library:JLCPCB_ToolingHole"
+			(at 229.87 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/help/article/47-How-to-add-tooling-holes-for-PCB-assembly-order"
+			(at 229.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://www.youtube.com/watch?v=C7-8nUU6e3E"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/88bb2a03-9a6b-4098-9ac0-ade288ccde3d"
+					(reference "TH1301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_CableTieHole")
+		(at 113.03 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "982f3587-349e-4602-a0ad-91b2e68078b2")
+		(property "Reference" "H1301"
+			(at 115.57 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "octoprobe_CableTieHole"
+			(at 115.57 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_CableTieHole"
+			(at 113.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +3865,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 29.21 76.2 0)
+			(at 113.03 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +3883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "00_project_library:+5VIN")
 		(at 195.58 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3041,6 +3944,77 @@
 			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/88bb2a03-9a6b-4098-9ac0-ade288ccde3d"
 					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 160.02 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9af04ae1-c669-4a1f-aaf3-c7c3d84ded75")
+		(property "Reference" "JP202"
+			(at 162.56 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 162.56 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34d72e1f-0397-48aa-aa69-3862593c3039")
+		)
+		(pin "1"
+			(uuid "924797d8-68af-4582-804e-89e89f3ec7ce")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/88bb2a03-9a6b-4098-9ac0-ade288ccde3d"
+					(reference "JP202")
 					(unit 1)
 				)
 			)
@@ -3261,6 +4235,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 187.96 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5e8b97e-2a87-4063-aec7-18b68e7e1e3e")
+		(property "Reference" "#FLG0202"
+			(at 187.96 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef2fab35-f77a-45d0-be75-7033863e6271")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/88bb2a03-9a6b-4098-9ac0-ade288ccde3d"
+					(reference "#FLG0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 160.02 53.34 0)
 		(unit 1)
@@ -3271,7 +4311,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6088d30-ee9b-493d-9b60-ddd9a0ab0205")
 		(property "Reference" "H204"
-			(at 162.56 50.7999 0)
+			(at 162.56 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,6 +4326,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "00_project_library:octohub4_mounting_hole"
@@ -3329,7 +4370,7 @@
 	)
 	(symbol
 		(lib_id "00_project_library:octoprobe_CableTieHole")
-		(at 29.21 81.28 0)
+		(at 113.03 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3338,7 +4379,7 @@
 		(fields_autoplaced yes)
 		(uuid "b66f80c0-a7af-4ca1-8e93-20ee8fb6180b")
 		(property "Reference" "H1302"
-			(at 31.75 80.0099 0)
+			(at 115.57 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,7 +4388,7 @@
 			)
 		)
 		(property "Value" "octoprobe_CableTieHole"
-			(at 31.75 82.5499 0)
+			(at 115.57 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +4397,7 @@
 			)
 		)
 		(property "Footprint" "00_project_library:octoprobe_CableTieHole"
-			(at 29.21 81.28 0)
+			(at 113.03 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +4406,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 81.28 0)
+			(at 113.03 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +4415,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 29.21 81.28 0)
+			(at 113.03 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,6 +4499,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 135.89 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2b52f2f-a08c-462a-97e6-e2e83f7c4337")
+		(property "Reference" "JP201"
+			(at 138.43 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 138.43 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fee9d5f-9716-408e-acea-a6aae25dcfbe")
+		)
+		(pin "1"
+			(uuid "64b57438-e522-413c-b38a-45ad3414b508")
+		)
+		(instances
+			(project ""
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/88bb2a03-9a6b-4098-9ac0-ade288ccde3d"
+					(reference "JP201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "00_project_library:octoprobe_breakout_BP")
 		(at 114.3 33.02 0)
 		(unit 1)
@@ -3485,7 +4597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SolderWirePad_1x01_SMD_2x4mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 			(at 119.38 33.02 0)
 			(effects
 				(font
@@ -3592,7 +4704,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 160.02 30.48 0)
+		(at 160.02 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3601,7 +4713,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6fc09fe-ec1b-4465-b489-08eb707d6bf0")
 		(property "Reference" "H202"
-			(at 162.56 27.9399 0)
+			(at 162.56 21.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,16 +4722,17 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 162.56 30.4799 0)
+			(at 162.56 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "00_project_library:octohub4_mounting_hole"
-			(at 160.02 30.48 0)
+			(at 160.02 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +4741,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 30.48 0)
+			(at 160.02 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +4750,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 160.02 30.48 0)
+			(at 160.02 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +4901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SolderWirePad_1x01_SMD_2x4mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 			(at 118.11 54.61 0)
 			(effects
 				(font
@@ -3828,7 +4941,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:HUB+5V")
+		(lib_id "00_project_library:+5VPROTECTED")
 		(at 176.53 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3845,7 +4958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VOUT"
+		(property "Value" "+5VPROTECTED"
 			(at 180.34 85.0899 90)
 			(effects
 				(font
@@ -3961,7 +5074,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 135.89 30.48 0)
+		(at 135.89 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3970,7 +5083,7 @@
 		(fields_autoplaced yes)
 		(uuid "f66d2a01-6b04-45ac-9dae-267a94e6365a")
 		(property "Reference" "H201"
-			(at 138.43 27.9399 0)
+			(at 138.43 21.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,16 +5092,17 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 138.43 30.4799 0)
+			(at 138.43 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "00_project_library:octohub4_mounting_hole"
-			(at 135.89 30.48 0)
+			(at 135.89 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +5111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 30.48 0)
+			(at 135.89 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +5120,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 135.89 30.48 0)
+			(at 135.89 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)

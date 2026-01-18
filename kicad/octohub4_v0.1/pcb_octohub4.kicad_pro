@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 1.25
+          "min_clearance": 0.18
         }
       },
       "diff_pair_dimensions": [
@@ -538,7 +538,7 @@
         "wire_width": 12
       },
       {
-        "bus_width": 16,
+        "bus_width": 24,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -552,33 +552,33 @@
         "track_width": 0.5,
         "via_diameter": 0.4,
         "via_drill": 0.2,
-        "wire_width": 16
+        "wire_width": 24
       },
       {
-        "bus_width": 12,
+        "bus_width": 24,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "5V OUT",
+        "name": "5V PROTECTED",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.4,
         "via_drill": 0.2,
-        "wire_width": 12
+        "wire_width": 24
       },
       {
-        "bus_width": 16,
-        "line_style": 1,
-        "name": "5Vbuf",
+        "bus_width": 24,
+        "line_style": 0,
+        "name": "5V UPSTREAM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
-        "schematic_color": "rgb(255, 0, 0)",
-        "wire_width": 16
+        "schematic_color": "rgb(224, 0, 255)",
+        "wire_width": 24
       },
       {
         "bus_width": 12,
@@ -667,8 +667,8 @@
         "pattern": "+3V3"
       },
       {
-        "netclass": "5V OUT",
-        "pattern": "+5VOUT"
+        "netclass": "5V PROTECTED",
+        "pattern": "+5VPROTECTED"
       },
       {
         "netclass": "GND",
@@ -685,6 +685,10 @@
       {
         "netclass": "UsbDifferential",
         "pattern": "/USB_*_D*"
+      },
+      {
+        "netclass": "5V UPSTREAM",
+        "pattern": "+5VUPSTREAM"
       }
     ]
   },
