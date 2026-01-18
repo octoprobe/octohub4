@@ -2446,7 +2446,7 @@
 		)
 		(uuid "e86803af-d585-4120-b443-c85be58c51d0")
 	)
-	(text_box "R201: Current limit ~4.47A (612 / 137 Ohm)\nC203: Allows transient surges (up to 2x limit) for ~6ms.\nC202: Output voltage ramp time to 5V/500ms"
+	(text_box "R201: Current limit ~5.1A (612 / 120 Ohm)\nC203: Allows transient surges (up to 2x limit) for ~6ms.\nC202: Output voltage ramp time to 5V/500ms"
 		(exclude_from_sim no)
 		(at 92.71 128.27 0)
 		(size 62.23 20.32)
@@ -3725,7 +3725,7 @@
 				)
 			)
 		)
-		(property "Value" "137"
+		(property "Value" "120"
 			(at 158.6484 111.76 90)
 			(effects
 				(font
@@ -4537,7 +4537,7 @@
 		(at 76.2 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
