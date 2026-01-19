@@ -2232,7 +2232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
+		(property "Description" "USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2281,7 +2281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
+		(property "Datasheet_alt" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8608741080523153408"
 			(at 0 0 0)
 			(effects
 				(font
