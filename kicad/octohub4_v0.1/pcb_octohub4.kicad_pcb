@@ -1376,7 +1376,7 @@
 				)
 			)
 		)
-		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
+		(property "Description" "USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1441,7 +1441,7 @@
 				)
 			)
 		)
-		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
+		(property "Datasheet_alt" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8608741080523153408"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2621,7 +2621,7 @@
 				)
 			)
 		)
-		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
+		(property "Description" "USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2686,7 +2686,7 @@
 				)
 			)
 		)
-		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
+		(property "Datasheet_alt" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8608741080523153408"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5051,7 +5051,7 @@
 				)
 			)
 		)
-		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
+		(property "Description" "USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5116,7 +5116,7 @@
 				)
 			)
 		)
-		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
+		(property "Datasheet_alt" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8608741080523153408"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18362,7 +18362,7 @@
 				)
 			)
 		)
-		(property "Description" "19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
+		(property "Description" "USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18427,7 +18427,7 @@
 				)
 			)
 		)
-		(property "Datasheet_alt" "https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf"
+		(property "Datasheet_alt" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8608741080523153408"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19502,8 +19502,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "POWER\n+5V PROTECTED"
-		(at 133.18 74.68 0)
+	(gr_text "+5V PROTECTED"
+		(at 133.18 73.86 0)
 		(layer "F.SilkS")
 		(uuid "793bd8f3-145a-472f-bf73-6c3e61b99885")
 		(effects
@@ -19566,8 +19566,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "POWER\n+5V UPSTREAM"
-		(at 77.6 63.3 0)
+	(gr_text "+5V UPSTREAM"
+		(at 77.6 62.39 0)
 		(layer "F.SilkS")
 		(uuid "8c060382-86d2-4c4b-9d44-edf8f5d7127d")
 		(effects
