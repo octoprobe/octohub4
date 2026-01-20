@@ -527,18 +527,6 @@
 				)
 			)
 		)
-		(property "KiCadOriginal" "MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "41fe4c67-9b99-48b7-94f4-0ee185eba3c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/88bb2a03-9a6b-4098-9ac0-ade288ccde3d/77a37e3c-20f4-494a-b15f-77548254d224")
 		(sheetname "/Power Protection/")
@@ -3475,18 +3463,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiCadOriginal" "MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2f07cd0f-8f64-4830-8039-0f465c7576dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -8408,18 +8384,6 @@
 				)
 			)
 		)
-		(property "KiCadOriginal" "TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "187a3290-4da0-4fd3-a408-216bfae415d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/88bb2a03-9a6b-4098-9ac0-ade288ccde3d/9f704c79-01d6-45d8-aec0-866a9c7f0403")
 		(sheetname "/Power Protection/")
@@ -10636,18 +10600,6 @@
 				)
 			)
 		)
-		(property "KiCadOrigin" "BarrelJack_CUI_PJ-079BH_Horizontal"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e7670926-bd5f-4a80-b02e-c680758dc440")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "JLCPCB" "C319095"
 			(at 0 0 270)
 			(unlocked yes)
@@ -10918,7 +10870,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "680"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14184,18 +14136,6 @@
 				)
 			)
 		)
-		(property "KiCadOriginal" "MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "584f0a4b-e6a8-4b63-9be7-6f02453d5694")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/88bb2a03-9a6b-4098-9ac0-ade288ccde3d/f66d2a01-6b04-45ac-9dae-267a94e6365a")
 		(sheetname "/Power Protection/")
@@ -15736,18 +15676,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiCadOriginal" "MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "bf0eba2e-3292-4965-ad49-6896c95b0bda")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -20359,14 +20287,6 @@
 		(uuid "8b644934-11fc-4928-8114-1ab872e547a1")
 	)
 	(segment
-		(start 124.26 65.99)
-		(end 124.26 66.4)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "9ac363b6-1de0-4d44-b79b-76d22fa40e2d")
-	)
-	(segment
 		(start 123.4432 63.6612)
 		(end 123.5448 63.7628)
 		(width 0.5)
@@ -20477,14 +20397,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "ebe7f430-3f04-4f09-b6ea-76e3dce1f29c")
-	)
-	(segment
-		(start 124.26 66.4)
-		(end 124.26 66.76)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "f229212d-2e25-4056-a259-7b8e810fe260")
 	)
 	(segment
 		(start 72.41 23.26)
@@ -20693,14 +20605,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "cf8c3a9b-6a0f-4761-906e-fe2294eed207")
-	)
-	(segment
-		(start 131.9825 73.7875)
-		(end 131.9925 73.7775)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "d23b26bb-c0d3-4d86-85f7-e68c19bc09c2")
 	)
 	(segment
 		(start 131.9925 73.7775)
