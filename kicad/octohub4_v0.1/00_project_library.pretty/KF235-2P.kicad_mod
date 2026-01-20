@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894722610384896"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -56,6 +56,30 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "cc645fd8-7785-4435-bed3-a0b1b7cb6350")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "JLCPCB" "C475172"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c9eee9c8-9498-4dac-ae60-14eab711dde4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Aliexpress" "https://de.aliexpress.com/item/32890128819.html"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "640bb62b-2aea-4e8c-82bc-6a90d02f9f92")
 		(effects
 			(font
 				(size 1 1)

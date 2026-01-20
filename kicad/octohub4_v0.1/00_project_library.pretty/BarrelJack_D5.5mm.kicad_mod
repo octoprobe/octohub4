@@ -21,6 +21,7 @@
 		(at -3.6 11.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "36dae584-1051-4418-8008-cc15669ef787")
 		(effects
 			(font
@@ -29,7 +30,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588896376407134208"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

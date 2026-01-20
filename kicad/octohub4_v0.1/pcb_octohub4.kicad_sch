@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Octohub4")
-		(date "2026-01-11")
+		(date "2026-01-20")
 		(rev "0.1")
 		(company "Hans Märki, Märki Informatik")
 		(comment 1 "The MIT License (MIT)")
@@ -1444,7 +1444,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 31.75) (xy 130.81 34.29)
+			(xy 130.81 27.94) (xy 130.81 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2428,7 +2428,7 @@
 	)
 	(symbol
 		(lib_id "00_project_library:+5VPROTECTED")
-		(at 130.81 31.75 0)
+		(at 130.81 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2436,7 +2436,7 @@
 		(dnp no)
 		(uuid "37672890-9b80-43a3-8c85-689b6a7bc302")
 		(property "Reference" "#PWR0215"
-			(at 130.81 35.56 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2445,7 @@
 			)
 		)
 		(property "Value" "+5VPROTECTED"
-			(at 130.8099 27.94 90)
+			(at 127 27.9401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,7 +2454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 31.75 0)
+			(at 130.81 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 31.75 0)
+			(at 130.81 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2472,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 31.75 0)
+			(at 130.81 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +4537,7 @@
 		)
 	)
 	(sheet
-		(at 224.79 129.54)
+		(at 189.23 29.21)
 		(size 38.1 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4553,7 +4553,7 @@
 		)
 		(uuid "88bb2a03-9a6b-4098-9ac0-ade288ccde3d")
 		(property "Sheetname" "Power Protection"
-			(at 224.79 128.8284 0)
+			(at 189.23 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4562,7 @@
 			)
 		)
 		(property "Sheetfile" "pcb_octohub4_usbhubchip_power_protection.kicad_sch"
-			(at 224.79 156.7946 0)
+			(at 189.23 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)

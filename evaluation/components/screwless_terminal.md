@@ -9,6 +9,8 @@
   USD0.15
   5mm distance
 
+  ***SELECTION
+
 * https://jlcpcb.com/partdetail/36591-WJ142R_5_08_02P_1400A/C35616
 
   18k

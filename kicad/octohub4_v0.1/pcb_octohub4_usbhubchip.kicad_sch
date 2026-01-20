@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Octohub4")
-		(date "2026-01-11")
+		(date "2026-01-20")
 		(rev "0.1")
 		(company "Hans Märki, Märki Informatik")
 		(comment 1 "The MIT License (MIT)")
@@ -699,7 +699,7 @@
 					)
 				)
 			)
-			(property "Footprint" "00_project_library:LED_0603_1608Metric"
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8937,7 +8937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 30.48 129.54 0)
 			(effects
 				(font
@@ -10442,7 +10442,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 114.3 0)
+		(at 165.1 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10450,7 +10450,7 @@
 		(dnp no)
 		(uuid "b0fc1823-a4de-4da8-acce-1082e1041aef")
 		(property "Reference" "#PWR0323"
-			(at 172.72 120.65 0)
+			(at 165.1 120.65 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -10459,7 +10459,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.847 117.9322 0)
+			(at 165.227 117.9322 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -10467,7 +10467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 114.3 0)
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,7 +10476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 114.3 0)
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10485,7 +10485,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 114.3 0)
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,15 +10497,9 @@
 			(uuid "88825c20-db68-4ef3-9195-b3d4944906f9")
 		)
 		(instances
-			(project "pcb_octohub"
+			(project "pcb_octohub4"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/cff48fa5-514e-40a1-9e85-b0c2e53fd5a3"
 					(reference "#PWR0323")
-					(unit 1)
-				)
-			)
-			(project "pcb_octohub"
-				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e/905a4e11-6f14-4a1c-9cfb-b7581f2e2845"
-					(reference "#PWR01115")
 					(unit 1)
 				)
 			)
@@ -11150,6 +11144,71 @@
 			(project "pcb_octohub"
 				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e/905a4e11-6f14-4a1c-9cfb-b7581f2e2845"
 					(reference "C1108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfda9190-06f9-41b0-b368-b0f98ecf9a6c")
+		(property "Reference" "#PWR0231"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.847 117.9322 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd6ce961-f915-4d11-b2e2-a7952c19007c")
+		)
+		(instances
+			(project "pcb_octohub4"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/cff48fa5-514e-40a1-9e85-b0c2e53fd5a3"
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -11948,77 +12007,6 @@
 			(project "pcb_octohub"
 				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e/905a4e11-6f14-4a1c-9cfb-b7581f2e2845"
 					(reference "C1105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2ca45fa-aed8-4aa0-90ae-f04144b3f92e")
-		(property "Reference" "#PWR0322"
-			(at 165.1 120.65 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.227 117.9322 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b7ab6d8-7a09-472d-80fb-7a33e1823885")
-		)
-		(instances
-			(project "pcb_octohub"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/cff48fa5-514e-40a1-9e85-b0c2e53fd5a3"
-					(reference "#PWR0322")
-					(unit 1)
-				)
-			)
-			(project "pcb_octohub"
-				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e/905a4e11-6f14-4a1c-9cfb-b7581f2e2845"
-					(reference "#PWR01114")
 					(unit 1)
 				)
 			)
