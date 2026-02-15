@@ -21,7 +21,7 @@ fprintf('========================================\n');
 % case_name, VIN, tR, Cout
 cases = {
     '12V Reference Design', 12, 20e-3, 100e-6;
-    '5V Octohub4',           5, 20e-3, 1000e-6
+    '5V Octohub4',           5, 250e-3, 1000e-6
 };
 
 % Loop through each test case

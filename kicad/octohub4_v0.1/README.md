@@ -5,7 +5,7 @@
 [schematics](octohub4_v0.1/schematics_octohub4_v0.1.pdf)
 
 
-## History v0.1 -> v0.7 2026-01-05
+## History v0.1 -> v0.1 2026-01-05
 
  * PCB -> File -> Board Setup -> Design Rules -> Pre-defined Sizes -> Vias
    | Label | Before | New |

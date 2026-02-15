@@ -1677,24 +1677,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -10.16 0)
-				(length 5.08)
-				(name "OVCSEL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at 0 -15.24 0)
 				(length 5.08)
@@ -1814,6 +1796,26 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TPS259474LRPWR_1_1"
+			(pin input line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "OVLO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
