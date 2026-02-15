@@ -1,4 +1,4 @@
-Tentacle
+Octohub4
 ======================
 
 .. image:: tentacle_images/tentacle_intro_v0.4.drawio.png
@@ -6,12 +6,7 @@ Tentacle
 
 .. toctree::
 
-    big_picture.rst
-    tentacle_v0.6.rst
-    tentacle_v0.5.rst
-    tentacle_v0.4.rst
-    tentacle_v0.3.rst
+    octohub4.rst
     pcb/bom.rst
-    rp2_probe.rst
-    rp2_probe-obsolete.rst
+    commissioning/commissioning.rst
     license.rst

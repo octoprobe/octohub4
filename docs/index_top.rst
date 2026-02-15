@@ -5,9 +5,8 @@ Octoprobe: Tentacle
     :caption: Contents:
 
     index.rst
-    top/octoprobe_octoprobe
-    top/octoprobe_testbed_micropython
-    top/octoprobe_testbed_showcase
+    octohub4
+    pcb/bom
 
 
 Indices and tables
