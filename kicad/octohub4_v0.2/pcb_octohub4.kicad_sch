@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Octohub4")
-		(date "2026-01-20")
-		(rev "0.1")
+		(date "2026-02-22")
+		(rev "0.2")
 		(company "Hans Märki, Märki Informatik")
 		(comment 1 "The MIT License (MIT)")
 	)
