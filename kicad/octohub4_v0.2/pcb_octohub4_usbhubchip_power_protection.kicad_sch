@@ -3576,7 +3576,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47k"
 			(at 147.2184 97.79 90)
 			(effects
 				(font
@@ -3611,7 +3611,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25611"
+		(property "JLCPCB" "C17713"
 			(at 147.32 97.79 90)
 			(effects
 				(font
@@ -3854,7 +3854,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "330k"
 			(at 71.0184 91.44 90)
 			(effects
 				(font
@@ -3889,7 +3889,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17713"
+		(property "JLCPCB" "C23137"
 			(at 71.12 91.44 90)
 			(effects
 				(font
@@ -4091,7 +4091,7 @@
 				)
 			)
 		)
-		(property "Value" "24k"
+		(property "Value" "18k"
 			(at 71.0184 102.87 90)
 			(effects
 				(font
@@ -4126,7 +4126,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17575"
+		(property "JLCPCB" "C25810"
 			(at 71.12 102.87 90)
 			(effects
 				(font
@@ -4234,7 +4234,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "100k"
 			(at 71.0184 118.11 90)
 			(effects
 				(font
@@ -4269,7 +4269,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17470"
+		(property "JLCPCB" "C149504"
 			(at 71.12 118.11 90)
 			(effects
 				(font
@@ -4405,6 +4405,15 @@
 		)
 		(property "Description" ""
 			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17798"
+			(at 146.05 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4684,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "120k"
 			(at 147.2184 90.17 90)
 			(effects
 				(font
@@ -4710,7 +4719,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17556"
+		(property "JLCPCB" "C25808"
 			(at 147.32 90.17 90)
 			(effects
 				(font

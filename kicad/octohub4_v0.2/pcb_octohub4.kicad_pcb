@@ -204,7 +204,7 @@
 	(net 69 "/USB_4_D-")
 	(net 70 "Net-(D207-A)")
 	(net 71 "Net-(D208-A)")
-	(net 72 "Net-(U201-OVCSEL)")
+	(net 72 "Net-(U201-OVLO)")
 	(net 73 "Net-(U201-PGTH)")
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -2022,7 +2022,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "330k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2058,7 +2058,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C17713"
+		(property "JLCPCB" "C23137"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3858,7 +3858,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3894,7 +3894,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C25611"
+		(property "JLCPCB" "C17713"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4014,7 +4014,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "120k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4050,7 +4050,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C17556"
+		(property "JLCPCB" "C25808"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7325,7 +7325,7 @@
 				)
 			)
 		)
-		(property "Value" "24k"
+		(property "Value" "18k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7361,7 +7361,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C17575"
+		(property "JLCPCB" "C25810"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7437,7 +7437,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
-			(net 72 "Net-(U201-OVCSEL)")
+			(net 72 "Net-(U201-OVLO)")
 			(pintype "passive")
 			(uuid "1fbb0461-bf97-4e85-9ddd-753fba3d0810")
 		)
@@ -11529,6 +11529,19 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C17798"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c580f286-2ad8-4955-9af4-973a308859f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/88bb2a03-9a6b-4098-9ac0-ade288ccde3d/6cdf2939-1a07-47d2-82eb-b8de22798b36")
 		(sheetname "/Power Protection/")
@@ -14293,7 +14306,7 @@
 			(at -0.900001 -0.225001)
 			(size 0.599999 0.249999)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 72 "Net-(U201-OVCSEL)")
+			(net 72 "Net-(U201-OVLO)")
 			(pinfunction "OVLO")
 			(pintype "input")
 			(uuid "989dfb40-d30b-42a1-a0be-685d8f171d34")
@@ -19016,7 +19029,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "100k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19052,7 +19065,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C17470"
+		(property "JLCPCB" "C149504"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19137,7 +19150,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
-			(net 72 "Net-(U201-OVCSEL)")
+			(net 72 "Net-(U201-OVLO)")
 			(pintype "passive")
 			(uuid "44e17ac2-f933-4ffa-8017-02490b5526da")
 		)
