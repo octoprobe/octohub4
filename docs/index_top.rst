@@ -1,12 +1,14 @@
-Octoprobe: Tentacle
+Octoprobe: Octohub4
 ===========================
 
 .. toctree::
     :caption: Contents:
 
+    top/octoprobe_tentacle
     index.rst
-    octohub4
-    pcb/bom
+    top/octoprobe_octoprobe
+    top/octoprobe_testbed_micropython
+    top/octoprobe_testbed_showcase
 
 
 Indices and tables

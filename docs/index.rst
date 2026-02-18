@@ -6,7 +6,7 @@ Octohub4
 
 .. toctree::
 
-    octohub4.rst
+    big_picture.rst
     pcb/bom.rst
     commissioning/commissioning.rst
     license.rst

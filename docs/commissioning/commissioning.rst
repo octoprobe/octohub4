@@ -22,7 +22,7 @@ Voltage slew rate
   * 200ms measured...
 
 Overvoltage protection
---------------------
+----------------------------
 
 * Precondition:  5V barrel jack connected
 * Setup: Connect scope on `GND` and `5V PROTECTED`
